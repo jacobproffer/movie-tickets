@@ -3,8 +3,8 @@ var movies = {
     {
       "title": "alien",
       "genre": "sci-fi",
-      "year": 1979,
-      "theatre": "gkc"
+      "year-watched": 1979,
+      "theatre-watched": "gkc"
     }
   ]
 };
