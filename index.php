@@ -43,54 +43,7 @@ $data = json_decode($movies_json, TRUE);
           <div class="info-col"><?php echo $val['theatre']; ?></div>
         </div>
 <?php endforeach; ?>
-        <!-- <div class="ticket-row">
-          <div class="info-col">American Sniper</div>
-          <div class="info-col">Action</div>
-          <div class="info-col date" data-date="1421539200">01/18/2015</div>
-          <div class="info-col">Thomas Theatre Group</div>
-        </div>
-        <div class="ticket-row">
-          <div class="info-col">Battleship</div>
-          <div class="info-col">Sci-Fi</div>
-          <div class="info-col date" data-date="1337385600">05/19/2012</div>
-          <div class="info-col">Carmike Cinemas</div>
-        </div>
-        <div class="ticket-row">
-          <div class="info-col">The Last Song</div>
-          <div class="info-col">Romance</div>
-          <div class="info-col date" data-date="1269993600">03/31/2010</div>
-          <div class="info-col">Carmike Cinemas</div>
-        </div>
-        <div class="ticket-row">
-          <div class="info-col">Edge of Tomorrow</div>
-          <div class="info-col">Sci-Fi</div>
-          <div class="info-col date" data-date="1402185600">06/08/2014</div>
-          <div class="info-col">Thomas Theatre Group</div>
-        </div>
-        <div class="ticket-row">
-          <div class="info-col">A Good Day to Die</div>
-          <div class="info-col">Action</div>
-          <div class="info-col date" data-date="1361059200">02/17/2013</div>
-          <div class="info-col">Carmike Cinemas</div>
-        </div>
-        <div class="ticket-row">
-          <div class="info-col">Independence Day: Resurgence</div>
-          <div class="info-col">Sci-Fi</div>
-          <div class="info-col date" data-date="1466640000">06/23/2016</div>
-          <div class="info-col">Thomas Theatre Group</div>
-        </div>
-        <div class="ticket-row">
-          <div class="info-col">The Expendables 3</div>
-          <div class="info-col">Action</div>
-          <div class="info-col date" data-date="1408233600">08/17/2014</div>
-          <div class="info-col">Thomas Theatre Group</div>
-        </div>
-        <div class="ticket-row">
-          <div class="info-col">The Hangover 3</div>
-          <div class="info-col">Comedy</div>
-          <div class="info-col date" data-date="1369353600">05/24/2013</div>
-          <div class="info-col">Carmike Cinemas</div>
-        </div>
+        <!-- 
         <div class="ticket-row">
           <div class="info-col">He's Just Not That Into You</div>
           <div class="info-col">Romance</div>

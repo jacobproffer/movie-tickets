@@ -13,6 +13,62 @@
       "data_date": 1421539200,
       "date": "01/18/2015",
       "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "Battleship",
+      "genre": "Sci-Fi",
+      "data_date": 1337385600,
+      "date": "05/19/2012",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "The Last Song",
+      "genre": "Romance",
+      "data_date": 1269993600,
+      "date": "03/31/2010",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Edge of Tomorrow",
+      "genre": "Sci-Fi",
+      "data_date": 1402185600,
+      "date": "06/08/2014",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "A Good Day to Die",
+      "genre": "Action",
+      "data_date": 1361059200,
+      "date": "02/17/2013",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Independence Day: Resurgence",
+      "genre": "Sci-Fi",
+      "data_date": 1466640000,
+      "date": "06/23/2016",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "The Expendables 3",
+      "genre": "Action",
+      "data_date": 1408233600,
+      "date": "08/17/2014",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "The Hangover 3",
+      "genre": "Comedy",
+      "data_date": 1369353600,
+      "date": "05/24/2013",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Guardians of the Galaxy Vol. 2",
+      "genre": "Sci-Fi",
+      "data_date": 1494633600,
+      "date": "05/13/2017",
+      "theatre": "Thomas Theatre Group"
     }
   ]
 }
