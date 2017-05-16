@@ -1,0 +1,18 @@
+{
+  "movies": [
+    {
+      "title": "The Equalizer",
+      "genre": "Action",
+      "data_date": 1411862400,
+      "date": "09/28/2014",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "American Sniper",
+      "genre": "Action",
+      "data_date": 1421539200,
+      "date": "01/18/2015",
+      "theatre": "Thomas Theatre Group"
+    }
+  ]
+}

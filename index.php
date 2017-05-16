@@ -1,3 +1,13 @@
+<?php
+
+// Get JSON
+$movies_data = "json/movies.json";
+$movies_json = file_get_contents($movies_data);
+$data = json_decode($movies_json, TRUE);
+
+?>
+
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
@@ -25,13 +35,15 @@
             Theatre
           </div>
         </div>
+<?php foreach($data['movies'] as $key=>$val) : ?>
         <div class="ticket-row">
-          <div class="info-col">The Equalizer</div>
-          <div class="info-col">Action</div>
-          <div class="info-col date" data-date="1411862400">09/28/2014</div>
-          <div class="info-col">Thomas Theatre Group</div>
+          <div class="info-col"><?php echo $val['title']; ?></div>
+          <div class="info-col"><?php echo $val['genre']; ?></div>
+          <div class="info-col date" data-date="<?php echo $val['data_date']; ?>"><?php echo $val['date']; ?></div>
+          <div class="info-col"><?php echo $val['theatre']; ?></div>
         </div>
-        <div class="ticket-row">
+<?php endforeach; ?>
+        <!-- <div class="ticket-row">
           <div class="info-col">American Sniper</div>
           <div class="info-col">Action</div>
           <div class="info-col date" data-date="1421539200">01/18/2015</div>
@@ -330,7 +342,7 @@
           <div class="info-col" data-genre="action">Action</div>
           <div class="info-col date" data-date="1459987200">04/07/2016</div>
           <div class="info-col" data-theatre="thomas theatre group">Thomas Theatre Group</div>
-        </div>
+        </div> -->
       </div>
       <section class="counters">
         <div class="numMovies">
