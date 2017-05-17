@@ -69,6 +69,300 @@
       "data_date": 1494633600,
       "date": "05/13/2017",
       "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "He's Just Not That Into You",
+      "genre": "Romance",
+      "data_date": 1236643200,
+      "date": "03/10/2009",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Victor Frankenstein",
+      "genre": "Sci-Fi",
+      "data_date": 1422403200,
+      "date": "01/28/2015",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "Did You Hear About the Morgans?",
+      "genre": "Romance",
+      "data_date": 1261872000,
+      "date": "12/27/2009",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Magic Mike",
+      "genre": "Drama",
+      "data_date": 1342310400,
+      "date": "07/15/2012",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "The Hangover 2",
+      "genre": "Comedy",
+      "data_date": 1307836800,
+      "date": "06/12/2011",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Zero Dark Thirty",
+      "genre": "Action",
+      "data_date": 1358121600,
+      "date": "01/14/2013",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Wild Hogs",
+      "genre": "Comedy",
+      "data_date": 1173484800,
+      "date": "03/10/2007",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Yes Man",
+      "genre": "Comedy",
+      "data_date": 1230422400,
+      "date": "12/28/2008",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Prom Night",
+      "genre": "Thriller",
+      "data_date": 1208563200,
+      "date": "04/19/2008",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Traitor",
+      "genre": "Action",
+      "data_date": 1220659200,
+      "date": "09/06/2008",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "The Town",
+      "genre": "Crime",
+      "data_date": 1285372800,
+      "date": "09/25/2010",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Prometheus",
+      "genre": "Sci-Fi",
+      "data_date": 1339804800,
+      "date": "06/16/2012",
+      "theatre": "AMC Empire 25"
+    },
+    {
+      "title": "Hancock",
+      "genre": "Action",
+      "data_date": 1216425600,
+      "date": "07/19/2008",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "22 Jump Street",
+      "genre": "Comedy",
+      "data_date": 1402617600,
+      "date": "06/13/2014",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "Terminator Salvation",
+      "genre": "Thriller",
+      "data_date": 1242950400,
+      "date": "05/22/2009",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Disturbia",
+      "genre": "Thriller",
+      "data_date": 1176508800,
+      "date": "04/14/2007",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Jurassic 3D",
+      "genre": "Fantasy",
+      "data_date": 1365120000,
+      "date": "04/05/2013",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Zombieland",
+      "genre": "Comedy",
+      "data_date": 1258070400,
+      "date": "11/13/2009",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "2012",
+      "genre": "Sci-Fi",
+      "data_date": 1254528000,
+      "date": "10/03/2009",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Bruno",
+      "genre": "Comedy",
+      "data_date": 1247270400,
+      "date": "07/11/2009",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "I Love You, Man",
+      "genre": "Romance",
+      "data_date": 1238284800,
+      "date": "03/29/2009",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Avatar 3D",
+      "genre": "Sci-Fi",
+      "data_date": 1261958400,
+      "date": "12/26/2009",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Snow White",
+      "genre": "Fantasy",
+      "data_date": 1339473900,
+      "date": "06/12/2012",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Jackass 3D",
+      "genre": "Comedy",
+      "data_date": 1287720300,
+      "date": "10/22/2010",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Paranormal",
+      "genre": "Thriller",
+      "data_date": 1256270700,
+      "date": "10/23/2009",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Rogue One: A Star Wars Story",
+      "genre": "Sci-Fi",
+      "data_date": 1482019200,
+      "date": "12/18/2016",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "Star Wars: The Force Awakens",
+      "genre": "Sci-Fi",
+      "data_date": 1451088000,
+      "date": "12/26/2015",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "Fifty Shades of Grey",
+      "genre": "Drama",
+      "data_date": 1423785600,
+      "date": "02/13/2015",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "Sicario",
+      "genre": "Thriller",
+      "data_date": 1444262400,
+      "date": "10/08/2015",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "The A-Team",
+      "genre": "Thriller",
+      "data_date": 1277078400,
+      "date": "06/21/2010",
+      "theatre": "Regal Entertainment Group"
+    },
+    {
+      "title": "World War Z",
+      "genre": "Thriller",
+      "data_date": 1373328000,
+      "date": "07/09/2013",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Spiderman 3",
+      "genre": "Sci-Fi",
+      "data_date": 1180137600,
+      "date": "05/26/2007",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Krampus",
+      "genre": "Horror",
+      "data_date": 1449204000,
+      "date": "12/04/2015",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "Hercules",
+      "genre": "Fantasy",
+      "data_date": 1406419200,
+      "date": "07/27/2014",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "Hell or High Water",
+      "genre": "Crime",
+      "data_date": 1473552000,
+      "date": "09/11/2016",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "Penguins of Madagascar",
+      "genre": "Adventure",
+      "data_date": 1418256000,
+      "date": "12/11/2014",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "Mission Impossible: Rogue Nation",
+      "genre": "Action",
+      "data_date": 1438905600,
+      "date": "08/07/2015",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "Deadpool",
+      "genre": "Fantasy",
+      "data_date": 1455580800,
+      "date": "02/16/2016",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "Straight Outta Compton",
+      "genre": "Drama",
+      "data_date": 1439769600,
+      "date": "08/17/2015",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "Black Mass",
+      "genre": "Crime",
+      "data_date": 1442534400,
+      "date": "09/18/2015",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "Entourage",
+      "genre": "Drama",
+      "data_date": 1433289600,
+      "date": "06/03/2015",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "Hardcore Henry",
+      "genre": "Action",
+      "data_date": 1459987200,
+      "date": "04/07/2016",
+      "theatre": "Thomas Theatre Group"
     }
   ]
 }
