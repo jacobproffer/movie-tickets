@@ -11,8 +11,36 @@ img {
 	max-width: 100%;
 }
 
+html, body {
+    width: 100%;
+    height: auto;
+    // cursor: url('cur-1.png') 5 5, auto;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
 body {
   color: $green;
   background: $black;
   font-family: 'Source Sans Pro', sans-serif;
+  &:after {
+    content:'';
+    position: fixed;
+    display: block;
+    z-index: 2;
+    width: 100%;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    background: $black;
+    cursor: none;
+    -webkit-animation: slideOut 600ms 600ms forwards;
+    animation: slideOut 600ms 600ms forwards;
+  }
+}
+
+@-webkit-keyframes slideOut {
+    100% { visibility:hidden; -webkit-transform:translateY(100%); }
+}
+@keyframes slideOut {
+    100% { visibility:hidden; transform:translateY(100%); }
 }
