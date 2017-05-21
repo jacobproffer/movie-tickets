@@ -20,36 +20,26 @@ $data = json_decode($movies_json, TRUE);
   </head>
   <body>
     <div class="page-wrap">
-      <div class="movie-tickets">
-        <div class="info-row">
-          <div class="info-col">
-            Title
-          </div>
-          <div class="info-col">
-            Genre
-          </div>
-          <div class="info-col">
-            Date
-          </div>
-          <div class="info-col">
-            Theatre
-          </div>
+      <section class="counters">
+        <div class="numMovies">
+          <h1>I've seen over <span></span> movies!</h1>
         </div>
+      </section>
+      <div class="movie-tickets">
 <?php foreach($data['movies'] as $key=>$val) : ?>
         <div class="ticket-row">
-          <div class="info-col"><?php echo $val['title']; ?></div>
-          <div class="info-col"><?php echo $val['genre']; ?></div>
-          <div class="info-col date" data-date="<?php echo $val['data_date']; ?>"><?php echo $val['date']; ?></div>
-          <div class="info-col"><?php echo $val['theatre']; ?></div>
+          <div class="ticket-col">
+            <h2><?php echo $val['title']; ?></h2>
+            <h3 class="date" data-date="<?php echo $val['data_date']; ?>">
+              <?php echo $val['date']; ?>
+            </h3>
+          </div>
+          <div class="ticket-col">
+            <h4><?php echo $val['theatre']; ?></h4>
+          </div>
         </div>
 <?php endforeach; ?>
       </div>
-      <section class="counters">
-        <div class="numMovies">
-          <h1></h1>
-          <h2>Movies</h2>
-        </div>
-      </section>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="dist/js/app.min.js" charset="utf-8"></script>
