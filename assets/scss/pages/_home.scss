@@ -40,7 +40,7 @@
 .ticket-row {
   padding-top: 15px;
   &:not(:first-child) {
-    border-top: 1px solid rgba(134, 172, 122, .25);
+    border-top: 1px dashed rgba(134, 172, 122, .25);
   }
 }
 
