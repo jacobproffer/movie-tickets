@@ -28,19 +28,17 @@ $data = json_decode($movies_json, TRUE);
   </head>
   <body>
     <div class="page-wrap">
-      <section class="counters">
+      <!-- <section class="counters">
         <div class="numMovies">
           <h1>I've seen over <span></span> movies!</h1>
         </div>
-      </section>
+      </section> -->
       <div class="movie-tickets">
 <?php foreach($data['movies'] as $key=>$val) : ?>
         <div class="ticket-row">
           <div class="ticket-col">
             <h2><?php echo $val['title']; ?></h2>
-            <h3 class="date" data-date="<?php echo $val['data_date']; ?>">
-              <?php echo $val['date']; ?>
-            </h3>
+            <h3 class="date" data-date="<?php echo $val['data_date']; ?>"><?php echo $val['date']; ?></h3>
           </div>
           <div class="ticket-col">
             <h4><?php echo $val['theatre']; ?></h4>
