@@ -3,6 +3,5 @@ $(".movie-tickets .ticket-row").sort(function (a, b) {
 }).appendTo(".movie-tickets");
 
 var num = $(".ticket-row").length;
-var date = $(".info-col[data-theatre='thomas theatre group']").length;
 
 $(".numMovies span").html(" " + num);
