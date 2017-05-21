@@ -15,6 +15,14 @@ $data = json_decode($movies_json, TRUE);
     <meta name="keywords" content="movie, tickets, movie tickets, collection" />
     <meta name="description" content="My name is Jacob Proffer and I collect movie tickets." />
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/manifest.json">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="favicons/favicon.ico">
+    <meta name="msapplication-config" content="favicons/browserconfig.xml">
+    <meta name="theme-color" content="#000000">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/project-main.min.css">
   </head>
