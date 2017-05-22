@@ -475,6 +475,90 @@
       "data_date": 1414627200,
       "date": "10/30/2014",
       "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "Nightmare on Elm Street",
+      "genre": "Horror",
+      "data_date": 1414627200,
+      "date": "10/30/2014",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "Saw VI",
+      "genre": "Horror",
+      "data_date": 1256947200,
+      "date": "10/31/2009",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Funny People",
+      "genre": "Comedy",
+      "data_date": 1250726400,
+      "date": "08/20/2009",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Beetlejuice",
+      "genre": "Comedy",
+      "data_date": 1414627200,
+      "date": "10/30/2014",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "A Million Ways to Die in the West",
+      "genre": "Comedy",
+      "data_date": 1402531200,
+      "date": "06/12/2014",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "Bad Teacher",
+      "genre": "Comedy",
+      "data_date": 1309478400,
+      "date": "07/01/2011",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Project X",
+      "genre": "Comedy",
+      "data_date": 1330819200,
+      "date": "03/04/2012",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "The Final Destination",
+      "genre": "Horror",
+      "data_date": 1251849600,
+      "date": "09/02/2009",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "The Proposal",
+      "genre": "Drama",
+      "data_date": 1247443200,
+      "date": "07/13/2009",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Harold & Kumar Escape from Guantanamo Bay",
+      "genre": "Comedy",
+      "data_date": 1210377600,
+      "date": "05/10/2008",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "The Mechanic",
+      "genre": "Thriller",
+      "data_date": 1297555200,
+      "date": "02/13/2011",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Youth in Revolt",
+      "genre": "Drama",
+      "data_date": 1262995200,
+      "date": "01/09/2010",
+      "theatre": "Carmike Cinemas"
     }
   ]
 }
