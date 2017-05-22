@@ -14,7 +14,6 @@ img {
 html, body {
     width: 100%;
     height: auto;
-    // cursor: url('cur-1.png') 5 5, auto;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
@@ -22,6 +21,7 @@ html, body {
 body {
   color: $green;
   background: $black;
+  background-size: 20%;
   font-family: 'Source Sans Pro', sans-serif;
   &:after {
     content:'';

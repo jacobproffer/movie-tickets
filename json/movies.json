@@ -363,13 +363,117 @@
       "data_date": 1459987200,
       "date": "04/07/2016",
       "theatre": "Thomas Theatre Group"
-    }
-    ,
+    },
     {
       "title": "Alien: Covenant",
       "genre": "Sci-Fi",
       "data_date": 1495152000,
       "date": "05/19/2017",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "Beauty and the Beast",
+      "genre": "Fantasy",
+      "data_date": 1489795200,
+      "date": "03/18/2017",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "Patriots Day",
+      "genre": "Thriller",
+      "data_date": 1484784000,
+      "date": "01/19/2017",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "John Wick: Chapter 2",
+      "genre": "Action",
+      "data_date": 1487030400,
+      "date": "02/14/2017",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "Fifty Shades Darker",
+      "genre": "Drama",
+      "data_date": 1486598400,
+      "date": "02/09/2017",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "Warcraft",
+      "genre": "Fantasy",
+      "data_date": 1465430400,
+      "date": "06/09/2016",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "Dumb and Dumber To",
+      "genre": "Comedy",
+      "data_date": 1416528000,
+      "date": "11/21/2014",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "Jurassic World",
+      "genre": "Fantasy",
+      "data_date": 1434067200,
+      "date": "06/12/2015",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "Fury",
+      "genre": "Action",
+      "data_date": 1413590400,
+      "date": "10/18/2014",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "Nightcrawler",
+      "genre": "Crime",
+      "data_date": 1415750400,
+      "date": "11/12/2014",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "The Man from U.N.C.L.E.",
+      "genre": "Action",
+      "data_date": 1440806400,
+      "date": "08/29/2015",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "Spectre",
+      "genre": "Action",
+      "data_date": 1446681600,
+      "date": "11/05/2015",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "The Night Before",
+      "genre": "Comedy",
+      "data_date": 1447891200,
+      "date": "11/19/2015",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "Ghostbusters",
+      "genre": "Action",
+      "data_date": 1409356800,
+      "date": "08/30/2014",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "Pride and Prejudice and Zombies",
+      "genre": "Thriller",
+      "data_date": 1455235200,
+      "date": "02/12/2016",
+      "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "Nightmare on Elm Street",
+      "genre": "Horror",
+      "data_date": 1414627200,
+      "date": "10/30/2014",
       "theatre": "Thomas Theatre Group"
     }
   ]
