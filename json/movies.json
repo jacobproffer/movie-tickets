@@ -559,6 +559,146 @@
       "data_date": 1262995200,
       "date": "01/09/2010",
       "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Thor: The Dark World",
+      "genre": "Fantasy",
+      "data_date": 1385251200,
+      "date": "11/24/2013",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Brothers",
+      "genre": "Drama",
+      "data_date": 1260489600,
+      "date": "12/11/2009",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Night at the Museum",
+      "genre": "Fantasy",
+      "data_date": 1243728000,
+      "date": "05/31/2009",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Knight & Day",
+      "genre": "Action",
+      "data_date": 1277942400,
+      "date": "07/01/2010",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "The Purge",
+      "genre": "Thriller",
+      "data_date": 1370649600,
+      "date": "06/08/2013",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Warm Bodies",
+      "genre": "Drama",
+      "data_date": 1359763200,
+      "date": "02/02/2013",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "I Now Pronounce You Chuck & Larry",
+      "genre": "Comedy",
+      "data_date": 1185148800,
+      "date": "07/23/2007",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "I Now Pronounce You Chuck & Larry",
+      "genre": "Comedy",
+      "data_date": 1185148800,
+      "date": "07/23/2007",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Transformers: Revenge of the Fallen",
+      "genre": "Sci-Fi",
+      "data_date": 1245801600,
+      "date": "06/24/2009",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "All About Steve",
+      "genre": "Comedy",
+      "data_date": 1254700800,
+      "date": "10/05/2009",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Four Christmases",
+      "genre": "Drama",
+      "data_date": 1229385600,
+      "date": "12/16/2008",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Stepfather",
+      "genre": "Thriller",
+      "data_date": 1255651200,
+      "date": "10/16/2009",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Get Him to the Greek",
+      "genre": "Thriller",
+      "data_date": 1275696000,
+      "date": "06/05/2010",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Harry Potter and the Half-Blood Prince",
+      "genre": "Fantasy",
+      "data_date": 1247616000,
+      "date": "07/15/2009",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "The Lovely Bones",
+      "genre": "Drama",
+      "data_date": 1263513600,
+      "date": "01/15/2010",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Robin Hood",
+      "genre": "Drama",
+      "data_date": 1273795200,
+      "date": "05/14/2010",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Shutter Island",
+      "genre": "Thriller",
+      "data_date": 1266537600,
+      "date": "02/19/2010",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Ted",
+      "genre": "Comedy",
+      "data_date": 1341878400,
+      "date": "07/10/2012",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Pain & Gain",
+      "genre": "Crime",
+      "data_date": 1367107200,
+      "date": "04/28/2013",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Contagion",
+      "genre": "Sci-Fi",
+      "data_date": 1316217600,
+      "date": "09/17/2011",
+      "theatre": "Carmike Cinemas"
     }
   ]
 }
