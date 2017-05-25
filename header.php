@@ -18,7 +18,7 @@ $data = json_decode($movies_json, TRUE);
     <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
     <link rel="manifest" href="favicons/manifest.json">
-    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#aa5b28">
     <link rel="shortcut icon" href="favicons/favicon.ico">
     <meta name="msapplication-config" content="favicons/browserconfig.xml">
     <meta name="theme-color" content="#000000">
