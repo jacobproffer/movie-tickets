@@ -1,22 +1,7 @@
 .movies {
   position: relative;
   width: 100%;
-  &:before {
-    position: absolute;
-    pointer-events: none;
-    height: 100%;
-    width: 100%;
-    content: "";
-    left: 0;
-    top: 0;
-    background: url('../img/grain.png');
-  }
-}
-
-.movie-tickets {
-  position: relative;
-  width: 100%;
-  padding: 80px 0;
+  padding: 0 0 90px;
 }
 
 .ticket-row {
@@ -56,7 +41,7 @@
 .ticket-row {
   padding-top: 15px;
   &:not(:first-child) {
-    border-top: 1px dashed $selection;
+    border-top: 1px dashed $border;
   }
 }
 
