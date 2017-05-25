@@ -225,13 +225,6 @@
       "theatre": "Carmike Cinemas"
     },
     {
-      "title": "Snow White",
-      "genre": "Fantasy",
-      "data_date": 1339473900,
-      "date": "06/12/2012",
-      "theatre": "Carmike Cinemas"
-    },
-    {
       "title": "Jackass 3D",
       "genre": "Comedy",
       "data_date": 1287720300,
@@ -915,6 +908,76 @@
       "genre": "Action",
       "data_date": 1276387200,
       "date": "06/13/2010",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "The Twilight Saga: Eclipse",
+      "genre": "Fantasy",
+      "data_date": 1278633600,
+      "date": "07/09/2010",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Dinner for Schmucks",
+      "genre": "Comedy",
+      "data_date": 1280448000,
+      "date": "07/30/2010",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "The Other Guys",
+      "genre": "Crime",
+      "data_date": 1281657600,
+      "date": "08/13/2010",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Step Up 3D",
+      "genre": "Drama",
+      "data_date": 1281139200,
+      "date": "08/07/2010",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Safe House",
+      "genre": "Thriller",
+      "data_date": 1329004800,
+      "date": "02/12/2012",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Pacific Rim",
+      "genre": "Sci-Fi",
+      "data_date": 1373760000,
+      "date": "07/14/2013",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Olympus Has Fallen",
+      "genre": "Action",
+      "data_date": 1363996800,
+      "date": "03/24/2013",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "G.I. Joe: Retaliation",
+      "genre": "Action",
+      "data_date": 1365379200,
+      "date": "04/08/2013",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "Oblivion",
+      "genre": "Action",
+      "data_date": 1366502400,
+      "date": "04/21/2013",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "47 Ronin",
+      "genre": "Fantasy",
+      "data_date": 1388188800,
+      "date": "12/28/2013",
       "theatre": "Carmike Cinemas"
     }
   ]
