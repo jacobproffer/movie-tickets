@@ -1,4 +1,6 @@
 <?php include('header.php'); ?>
+  <section class="movies">
+    <div class="page-wrap">
       <div class="movie-tickets">
 <?php foreach($data['movies'] as $key=>$val) : ?>
         <div class="ticket-row">
@@ -13,4 +15,5 @@
 <?php endforeach; ?>
       </div>
     </div>
+  </section>
 <?php include('footer.php'); ?>

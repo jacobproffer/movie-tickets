@@ -13,34 +13,12 @@ img {
 
 html, body {
     width: 100%;
-    height: auto;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
+    height: 100%;
 }
 
 body {
-  color: $green;
+  color: $white;
   background: $black;
-  background-size: 20%;
+  background-size: 100%;
   font-family: 'Source Sans Pro', sans-serif;
-  &:after {
-    content:'';
-    position: fixed;
-    display: block;
-    z-index: 2;
-    width: 100%;
-    left: 0; right: 0;
-    top: 0; bottom: 0;
-    background: $black;
-    cursor: none;
-    -webkit-animation: slideOut 600ms 600ms forwards;
-    animation: slideOut 600ms 600ms forwards;
-  }
-}
-
-@-webkit-keyframes slideOut {
-    100% { visibility:hidden; -webkit-transform:translateY(100%); }
-}
-@keyframes slideOut {
-    100% { visibility:hidden; transform:translateY(100%); }
 }

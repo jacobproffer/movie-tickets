@@ -979,6 +979,20 @@
       "data_date": 1388188800,
       "date": "12/28/2013",
       "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "The Family",
+      "genre": "Thriller",
+      "data_date": 1379210604,
+      "date": "09/15/2013",
+      "theatre": "Carmike Cinemas"
+    },
+    {
+      "title": "How to Train Your Dragon",
+      "genre": "Fantasy",
+      "data_date": 1269569141,
+      "date": "03/26/2010",
+      "theatre": "Carmike Cinemas"
     }
   ]
 }

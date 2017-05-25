@@ -26,4 +26,3 @@ $data = json_decode($movies_json, TRUE);
     <link rel="stylesheet" href="dist/css/project-main.min.css">
   </head>
   <body>
-  <div class="page-wrap">
