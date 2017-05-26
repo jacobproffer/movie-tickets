@@ -1,6 +1,6 @@
       <footer>
         <div class="container">
-          <span>?</span>
+          <span>Info</span>
         </div>
       </footer>
     </div>
