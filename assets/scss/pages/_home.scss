@@ -30,6 +30,10 @@
     margin: 0;
     padding: 0;
   }
+  h3,
+  h4 {
+    color: #8B8B85;
+  }
   h4 {
     font-style: italic;
     @include screen-above(768px) {
@@ -40,9 +44,10 @@
 
 .ticket-row {
   padding-top: 15px;
-  &:not(:first-child) {
-    border-top: 1px dashed $border;
-  }
+  border-top: 1px dashed $border;
+  // &:not(:first-child) {
+  //   border-top: 1px dashed $border;
+  // }
 }
 
 .ticket-col {

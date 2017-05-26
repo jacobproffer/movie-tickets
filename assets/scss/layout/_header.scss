@@ -1,14 +1,6 @@
 header {
   position: relative;
   width: 100%;
-  padding: 90px 0 60px;
-  .logo {
-    position: relative;
-    display: block;
-    margin: 0 auto;
-    svg {
-      width: 50px;
-      height: 25px;
-    }
-  }
+  padding: 30px 0;
+  color: $orange;
 }
