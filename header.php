@@ -28,7 +28,7 @@ $data = json_decode($movies_json, TRUE);
   <body>
     <div class="info-modal close-info-modal">
       <div class="info-modal-container">
-        <p>This site serves as an archive of the movies I've seen in theatres since 2007, powered by PHP, JSON and JavaScript. I've currently seen <span id="numOfMovies"></span> movies in <span id="numOfTheatres"></span> movie theatres.</p>
+        <p>This site serves as an archive of the movies I've seen in theatres, powered by PHP, JSON and JavaScript. I've currently seen <span id="numOfMovies"></span> movies in <span id="numOfTheatres"></span> movie theatres since 2007.</p>
       </div>
       <div class="info-modal-footer">
         <span class="info-modal-close">Close</span>
