@@ -1,3 +1,47 @@
+.info-modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  background: $black;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  &:before {
+    position: absolute;
+    pointer-events: none;
+    height: 100%;
+    width: 100%;
+    content: "";
+    left: 0;
+    top: 0;
+    background: url('../img/grain.png');
+  }
+}
+
+.info-modal-close {
+  cursor: pointer;
+}
+
+.close-info-modal {
+  display: none;
+}
+
+.info-modal-container {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  max-width: 600px;
+  padding: 0 20px;
+  padding: 0 1.25rem;
+  margin: auto;
+}
+
 .movies {
   position: relative;
   width: 100%;

@@ -1,6 +1,6 @@
       <footer>
         <div class="container">
-          <span>Info</span>
+          <span class="open-info-modal">Info</span>
         </div>
       </footer>
     </div>

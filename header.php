@@ -26,6 +26,12 @@ $data = json_decode($movies_json, TRUE);
     <link rel="stylesheet" href="dist/css/project-main.min.css">
   </head>
   <body>
+    <div class="info-modal close-info-modal">
+      <div class="info-modal-container">
+        <p>Hello</p>
+        <span class="info-modal-close">Close</span>
+      </div>
+    </div>
     <div class="page-wrap">
       <header>
         <div class="container">
