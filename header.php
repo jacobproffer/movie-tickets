@@ -10,9 +10,9 @@ $data = json_decode($movies_json, TRUE);
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>I Collect Movie Tickets</title>
-    <meta name="keywords" content="movie, tickets, movie tickets, collection" />
-    <meta name="description" content="My name is Jacob Proffer and I collect movie tickets." />
+    <title>Recent Movies</title>
+    <meta name="keywords" content="movie, tickets, movie tickets, archive" />
+    <meta name="description" content="This site serves as an archive of the movies Jacob Proffer has seen in theatres, powered by PHP, JSON and JavaScript." />
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1"/>
     <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
