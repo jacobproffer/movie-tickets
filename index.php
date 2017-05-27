@@ -9,7 +9,7 @@
                 <h3 class="date" data-date="<?php echo $val['data_date']; ?>"><?php echo $val['date']; ?></h3>
               </div>
               <div class="ticket-col">
-                <h4><?php echo $val['theatre']; ?></h4>
+                <h4 class="theatres" data-theatre="<?php echo $val['theatre']; ?>"><?php echo $val['theatre']; ?></h4>
               </div>
             </div>
 <?php endforeach; ?>

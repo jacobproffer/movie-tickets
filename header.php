@@ -28,7 +28,9 @@ $data = json_decode($movies_json, TRUE);
   <body>
     <div class="info-modal close-info-modal">
       <div class="info-modal-container">
-        <p>Hello</p>
+        <p>Over the span of 10 years, I've seen <span id="numOfMovies"></span> movies in <span id="numOfTheatres"></span> movie theatres.</p>
+      </div>
+      <div class="info-modal-footer">
         <span class="info-modal-close">Close</span>
       </div>
     </div>

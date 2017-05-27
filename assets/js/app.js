@@ -1,11 +1,5 @@
-// Sort movies by epoch date
-$(".movie-tickets .ticket-row").sort(function (a, b) {
-    return new Date($(".date", b).data("date")) - new Date($(".date", a).data("date"));
-}).appendTo(".movie-tickets");
-
-// Count number of movies
-var num = $(".ticket-row").length;
-$(".numMovies span").html(" " + num);
+var theatres;
+var count;
 
 // Open modal
 $('.open-info-modal').click(function() {
@@ -18,3 +12,20 @@ $('.info-modal-close').click(function() {
   $('.info-modal').addClass('close-info-modal');
   $('body').removeClass('stop-scroll');
 });
+
+// Sort movies by epoch date
+$(".movie-tickets .ticket-row").sort(function (a, b) {
+    return new Date($(".date", b).data("date")) - new Date($(".date", a).data("date"));
+}).appendTo(".movie-tickets");
+
+// Count number of movies
+var num = $(".ticket-row").length;
+$("#numOfMovies").html(" " + num);
+
+// Count theatres
+theatres = [];
+$('h4.theatres').each(function() {
+  theatres.push($(this).attr('data-theatre'));
+});
+count = $.unique(theatres).length;
+$('#numOfTheatres').html(" " + count);
