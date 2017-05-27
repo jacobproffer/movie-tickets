@@ -42,9 +42,8 @@ $data = json_decode($movies_json, TRUE);
         <span class="info-modal-close">Close</span>
       </div>
     </div>
-    <div class="page-wrap">
-      <header>
-        <div class="container">
-          <h1>Recent Movies</h1>
-        </div>
-      </header>
+    <header>
+      <div class="container">
+        <h1>Recent Movies</h1>
+      </div>
+    </header>
