@@ -18,22 +18,12 @@ html, body {
 
 body {
   position: relative;
-  color: $white;
+  color: $copy;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
 .page-wrap {
   position: relative;
-  background: $black;
+  background: $body;
   background-size: 100%;
-  &:before {
-    position: absolute;
-    pointer-events: none;
-    height: 100%;
-    width: 100%;
-    content: "";
-    left: 0;
-    top: 0;
-    background: url('../img/grain.png');
-  }
 }

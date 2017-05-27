@@ -6,19 +6,9 @@ footer {
   margin: 0 auto;
   padding: 30px 0;
   text-align: center;
-  background: $black;
+  background: $body;
   span {
-    color: $orange;
+    color: $header;
     cursor: pointer;
-  }
-  &:before {
-    position: absolute;
-    pointer-events: none;
-    height: 100%;
-    width: 100%;
-    content: "";
-    left: 0;
-    top: 0;
-    background: url('../img/grain.png');
   }
 }

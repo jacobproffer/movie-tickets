@@ -7,21 +7,11 @@
   z-index: 2;
   overflow: hidden;
   -webkit-overflow-scrolling: touch;
-  background: $black;
+  background: $body;
   color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  &:before {
-    position: absolute;
-    pointer-events: none;
-    height: 100%;
-    width: 100%;
-    content: "";
-    left: 0;
-    top: 0;
-    background: url('../img/grain.png');
-  }
 }
 
 .info-modal-close {
@@ -80,7 +70,7 @@
   }
   h3,
   h4 {
-    color: #8B8B85;
+    color: $hit;
   }
   h4 {
     font-style: italic;
@@ -92,10 +82,7 @@
 
 .ticket-row {
   padding-top: 15px;
-  border-top: 1px dashed $border;
-  // &:not(:first-child) {
-  //   border-top: 1px dashed $border;
-  // }
+  border-top: 1px solid $border;
 }
 
 .ticket-col {
