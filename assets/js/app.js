@@ -1,5 +1,6 @@
 var theatres;
 var count;
+var num;
 
 // Open modal
 $('.open-info-modal').click(function() {
@@ -19,7 +20,7 @@ $(".movie-tickets .ticket-row").sort(function (a, b) {
 }).appendTo(".movie-tickets");
 
 // Count number of movies
-var num = $(".ticket-row").length;
+num = $(".ticket-row").length;
 $("#numOfMovies").html(" " + num);
 
 // Count theatres
