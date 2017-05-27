@@ -32,6 +32,10 @@
   display: none;
 }
 
+.stop-scroll {
+  overflow: hidden;
+}
+
 .info-modal-container {
   -webkit-box-flex: 1;
   -ms-flex: 1;

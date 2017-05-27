@@ -10,9 +10,11 @@ $(".numMovies span").html(" " + num);
 // Open modal
 $('.open-info-modal').click(function() {
   $('.info-modal').removeClass('close-info-modal');
+  $('body').addClass('stop-scroll');
 });
 
 // Close modal
 $('.info-modal-close').click(function() {
   $('.info-modal').addClass('close-info-modal');
+  $('body').removeClass('stop-scroll');
 });
