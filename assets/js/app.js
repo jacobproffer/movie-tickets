@@ -26,7 +26,10 @@ $("#numOfMovies").html(" " + num);
 // Count theatres
 theatres = [];
 $('h4.theatres').each(function() {
-  theatres.push($(this).attr('data-theatre'));
+  theatres[$(this).attr('data-theatre')] = true;
 });
-count = $.unique(theatres).length;
-$('#numOfTheatres').html(" " + count);
+count = [];
+for( var i in theatres ) {
+  count.push(i);
+}
+$('#numOfTheatres').html(" " + count.length);
