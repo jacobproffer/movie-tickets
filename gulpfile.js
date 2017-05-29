@@ -10,6 +10,11 @@ var gulp        = require('gulp'),
     imagemin    = require('gulp-imagemin'),
     browserSync = require('browser-sync').create();
 
+var scripts = [
+  'assets/js/lib/jquery-3.2.1.min.js',
+  'assets/js/app.js'
+];
+
 // Static Server + watching scss/html files
 gulp.task('serve', ['sass', 'js'], function() {
 
@@ -36,19 +41,12 @@ gulp.task('sass', function () {
 
 // Configure JS.
 gulp.task('js', function() {
-  return gulp.src('assets/js/**/*.js')
+  return gulp.src(scripts)
     .pipe(uglify())
     .pipe(concat('app.js'))
     .pipe(rename({suffix: '.min'}))
     .pipe(gulp.dest('dist/js'))
     .pipe(browserSync.stream());
-});
-
-// Configure image stuff.
-gulp.task('images', function () {
-  return gulp.src('assets/img/**/*.+(png|jpg|gif|svg)')
-    .pipe(imagemin())
-    .pipe(gulp.dest('dist/img'));
 });
 
 gulp.task('watch', function () {
@@ -57,4 +55,4 @@ gulp.task('watch', function () {
   gulp.watch('./*.html').on('change', browserSync.reload);
 });
 
-gulp.task('default', ['sass', 'js', 'images', 'serve']);
+gulp.task('default', ['sass', 'js', 'serve']);
