@@ -1007,6 +1007,13 @@
       "data_date": 1498348800,
       "date": "06/25/2017",
       "theatre": "Thomas Theatre Group"
+    },
+    {
+      "title": "The House",
+      "genre": "Comedy",
+      "data_date": 1498867200,
+      "date": "07/01/2017",
+      "theatre": "Thomas Theatre Group"
     }
   ]
 }
