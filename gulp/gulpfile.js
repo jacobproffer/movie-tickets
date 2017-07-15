@@ -6,8 +6,7 @@ var gulp        = require('gulp'),
     rename      = require('gulp-rename'),
     prefix      = require('gulp-autoprefixer'),
     uglify      = require('gulp-uglify'),
-    concat      = require('gulp-concat'),
-    browserSync = require('browser-sync').create();
+    concat      = require('gulp-concat');
 
 var scripts = [
   '../assets/js/lib/jquery-3.2.1.min.js',
