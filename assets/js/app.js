@@ -1,20 +1,21 @@
 var theatres;
 var count;
 var num;
+var body = $('body');
 var movietickets = $('.movie-tickets');
 
 // Open modal
 $('.open-info-modal').click(function() {
   $('.info-modal').removeClass('close-info-modal');
-  $('body').addClass('stop-scroll');
-  $('body').addClass('disable-scrolling');
+  body.addClass('stop-scroll');
+  body.addClass('disable-scrolling');
 });
 
 // Close modal
 $('.info-modal-close').click(function() {
   $('.info-modal').addClass('close-info-modal');
-  $('body').removeClass('stop-scroll');
-  $('body').removeClass('disable-scrolling');
+  body.removeClass('stop-scroll');
+  body.removeClass('disable-scrolling');
 });
 
 // Disable scrolling if modal is open
