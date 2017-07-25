@@ -9,7 +9,6 @@ var gulp        = require('gulp'),
     concat      = require('gulp-concat');
 
 var scripts = [
-  '../assets/js/lib/jquery-3.2.1.min.js',
   '../assets/js/app.js'
 ];
 
