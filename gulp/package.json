@@ -1,6 +1,6 @@
 {
   "name": "movie-tickets",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Movie tickets data project.",
   "main": "gulpfile.js",
   "scripts": {
@@ -15,6 +15,7 @@
   "homepage": "https://github.com/jacobproffer/movie-tickets",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "browser-sync": "^2.12.8",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-concat": "^2.6.0",
     "gulp-cssmin": "^0.1.7",
