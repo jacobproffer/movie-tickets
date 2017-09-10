@@ -8,7 +8,7 @@
   overflow: hidden;
   -webkit-overflow-scrolling: touch;
   background: $body;
-  color: #fff;
+  color: #FCEADE;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -46,6 +46,12 @@
   padding: 0 0 90px;
 }
 
+.movie-tickets {
+  border-left: 1px solid $border;
+  border-right: 1px solid $border;
+  border-bottom: 1px solid $border;
+}
+
 .ticket-row {
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -65,7 +71,6 @@
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
-  margin-bottom: 15px;
   h2,
   h3,
   h4 {
@@ -85,7 +90,7 @@
 }
 
 .ticket-row {
-  padding-top: 15px;
+  padding: 15px;
   border-top: 1px solid $border;
 }
 

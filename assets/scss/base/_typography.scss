@@ -1,19 +1,14 @@
-h1 {
-  @include font-size($h1-font-sizes);
-}
-
-h2 {
-  @include font-size($h2-font-sizes);
-}
-
-h3 {
-  @include font-size($h3-font-sizes);
-}
-
-h4 {
-  @include font-size($h4-font-sizes);
-}
-
+h1,
+h2,
+h3,
+h4,
 p {
-  @include font-size($p-font-sizes);
+  @include font-size($site-font-size);
+}
+
+
+h1,
+h2 {
+  letter-spacing: 0.05em;
+  margin: 0.05em -1.2em 0.05em 0;
 }
