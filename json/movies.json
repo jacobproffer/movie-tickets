@@ -1027,5 +1027,19 @@
     "data_date": 1500768000,
     "date": "07/23/2017",
     "theatre": "Thomas Theatre Group"
+  },
+  {
+    "title": "The Hitmans Bodyguard",
+    "genre": "Action",
+    "data_date": 1503705600,
+    "date": "08/26/2017",
+    "theatre": "Thomas Theatre Group"
+  },
+  {
+    "title": "It",
+    "genre": "Horror",
+    "data_date": 1504742400,
+    "date": "09/07/2017",
+    "theatre": "Cinemark Tinseltown Grapevine"
   }
 ]
