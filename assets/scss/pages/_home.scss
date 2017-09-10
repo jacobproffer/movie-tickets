@@ -7,8 +7,8 @@
   z-index: 2;
   overflow: hidden;
   -webkit-overflow-scrolling: touch;
-  background: $body;
-  color: #FCEADE;
+  background: $black;
+  color: $white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -46,13 +46,8 @@
   padding: 0 0 90px;
 }
 
-.movie-tickets {
-  border-left: 1px solid $border;
-  border-right: 1px solid $border;
-  border-bottom: 1px solid $border;
-}
-
 .ticket-row {
+  background: $white;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
@@ -77,10 +72,6 @@
     margin: 0;
     padding: 0;
   }
-  h3,
-  h4 {
-    color: $hit;
-  }
   h4 {
     font-style: italic;
     @include screen-above(768px) {
@@ -89,9 +80,15 @@
   }
 }
 
+.movie-tickets {
+  border-top: 2px solid $black;
+  border-left: 2px solid $black;
+  border-right: 2px solid $black;
+}
+
 .ticket-row {
   padding: 15px;
-  border-top: 1px solid $border;
+  border-bottom: 2px solid $black;
 }
 
 .ticket-col {
