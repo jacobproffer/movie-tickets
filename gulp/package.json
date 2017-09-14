@@ -1,5 +1,5 @@
 {
-  "name": "movie-tickets",
+  "name": "movies",
   "version": "1.1.0",
   "description": "Movie tickets data project.",
   "main": "gulpfile.js",
@@ -8,11 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jacobproffer/movie-tickets.git"
+    "url": "https://github.com/jacobproffer/movies.git"
   },
   "author": "Jacob Proffer <jacob@jacobproffer.com>",
   "license": "MIT",
-  "homepage": "https://github.com/jacobproffer/movie-tickets",
+  "homepage": "https://github.com/jacobproffer/movies",
   "devDependencies": {
     "gulp": "^3.9.1",
     "browser-sync": "^2.12.8",
