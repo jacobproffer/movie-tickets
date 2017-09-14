@@ -4,8 +4,8 @@
   @include box-sizing(border-box);
 }
 
-::-moz-selection { background: $selection; }
-::selection { background: $selection; }
+::-moz-selection { color: $black; background: $selection; }
+::selection { color: $black; background: $selection; }
 
 img {
 	max-width: 100%;
