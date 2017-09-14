@@ -10,6 +10,8 @@ var gulp        = require('gulp'),
     browserSync = require('browser-sync').create();
 
 var scripts = [
+  '../assets/js/lib/headroom/headroom.min.js',
+  '../assets/js/lib/headroom/jquery.headroom.js',
   '../assets/js/app.js'
 ];
 

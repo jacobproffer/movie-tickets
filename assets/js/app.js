@@ -1,8 +1,9 @@
-var theatres;
-var count;
-var num;
-var body = $('body');
-var movietickets = $('.movie-tickets');
+var theatres,
+    count,
+    num,
+    body = $('body'),
+    movietickets = $('.movie-tickets');
+    mainHeader = $('header');
 
 // Open modal
 $('.open-info-modal').click(function() {
@@ -70,4 +71,29 @@ $.getJSON( "json/movies.json" )
   .fail(function( jqxhr, textStatus, error ) {
     var err = textStatus + ", " + error;
     console.log( "Request Failed: " + err );
+});
+
+
+
+/* Headroom.js settings
+  ========================================================================== */
+
+mainHeader.headroom({
+  offset    : 0,
+  tolerance   : 0,
+  classes : {
+    pinned   : "pinned",
+    unpinned : "unpinned",
+    top      : "onTop",
+    bottom   : "onBottom",
+    notTop   : "scrolled"
+  },
+	onUnpin : function() {
+		if ( mainHeader.hasClass('open') ) {
+			mainHeader.removeClass('unpinned');
+		}
+	},
+  onTop : function() {
+    mainHeader.removeClass('pinned');
+  }
 });

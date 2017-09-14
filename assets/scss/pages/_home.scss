@@ -43,7 +43,16 @@
 .movies {
   position: relative;
   width: 100%;
-  padding: 0 0 150px;
+  padding: 100px 0;
+  @include screen-between(480px, 768px) {
+    padding: 130px 0;
+  }
+  @include screen-between(768px, 1024px) {
+    padding: 175px 0;
+  }
+  @include screen-above(1024px) {
+    padding: 300px 0;
+  }
 }
 
 .ticket-row {
