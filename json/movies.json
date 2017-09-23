@@ -1041,5 +1041,12 @@
     "data_date": 1504742400,
     "date": "09/07/2017",
     "theatre": "Cinemark Tinseltown Grapevine"
+  },
+  {
+    "title": "It",
+    "genre": "Horror",
+    "data_date": 1505001600,
+    "date": "09/10/2017",
+    "theatre": "Thomas Theatre Group"
   }
 ]
