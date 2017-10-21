@@ -1062,5 +1062,12 @@
     "data_date": 1508025600,
     "date": "10/15/2017",
     "theatre": "Thomas Theatre Group"
+  },
+  {
+    "title": "Geostorm",
+    "genre": "Sci-Fi",
+    "data_date": 1508544000,
+    "date": "10/21/2017",
+    "theatre": "Thomas Theatre Group"
   }
 ]
