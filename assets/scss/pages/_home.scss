@@ -44,16 +44,7 @@
 .movies {
   position: relative;
   width: 100%;
-  padding: 100px 0 125px;
-  @include screen-between(480px, 768px) {
-    padding: 130px 0;
-  }
-  @include screen-between(768px, 1024px) {
-    padding: 175px 0 150px;
-  }
-  @include screen-above(1024px) {
-    padding: 275px 0 150px;
-  }
+  padding: 100px 0 150px;
 }
 
 .ticket-row {
@@ -82,8 +73,11 @@
     margin: 0;
     padding: 0;
   }
+  h3,
   h4 {
-    font-style: italic;
+    color: $header;
+  }
+  h4 {
     @include screen-above(768px) {
       text-align: right;
     }
@@ -91,14 +85,12 @@
 }
 
 .movie-tickets {
-  border-top: 2px solid $black;
-  border-left: 2px solid $black;
-  border-right: 2px solid $black;
+  border-top: 2px solid $gray;
 }
 
 .ticket-row {
-  padding: 15px;
-  border-bottom: 2px solid $black;
+  padding: 15px 0;
+  border-bottom: 2px solid $gray;
 }
 
 .ticket-col {
