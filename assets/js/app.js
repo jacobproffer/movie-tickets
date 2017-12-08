@@ -43,11 +43,10 @@ $(document).ready(function() {
         movietickets.append(
           "<div class='ticket-row'>" +
             "<div class='ticket-col'>" +
-              "<h2>" + item.title + "</h2>" +
-              "<h3 class='date' data-date='" + item.data_date + "'>" + item.date + "</h3>" +
+              "<h2>" + item.title + "</h2><span class='theatres' data-theatre='" + item.theatre + "'>" + item.theatre + "</span>" +
             "</div>" +
             "<div class='ticket-col'>" +
-              "<h4 class='theatres' data-theatre='" + item.theatre + "'>" + item.theatre + "</h4>" +
+              "<h4 class='date' data-date='" + item.date + "'>" + item.date + "</h4>" +
             "</div>" +
           "</div>"
         );
@@ -61,7 +60,7 @@ $(document).ready(function() {
       $("#numOfMovies").html(" " + num);
       // Count theatres
       theatres = [];
-      $('h4.theatres').each(function() {
+      $('span.theatres').each(function() {
         theatres[$(this).attr('data-theatre')] = true;
       });
       count = [];

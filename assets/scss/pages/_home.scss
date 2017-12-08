@@ -7,8 +7,8 @@
   z-index: 3;
   overflow: hidden;
   -webkit-overflow-scrolling: touch;
-  background: $black;
-  color: $white;
+  background: $white;
+  color: $black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -68,8 +68,11 @@
   -ms-flex-align: end;
   align-items: flex-end;
   padding: 15px 0;
-  &:not(:first-of-type) {
-    border-top: 1px solid $gray;
+  border-top: 1px solid $gray;
+  h2 {
+    @include screen-above(1024px) {
+      display: inline-block;
+    }
   }
   h2,
   h3,
@@ -79,11 +82,22 @@
   }
   h3,
   h4 {
-    color: $header;
+    color: $hit;
   }
   h4 {
     @include screen-above(768px) {
       text-align: right;
+    }
+  }
+  span {
+    color: $hit;
+    @include screen-above(1024px) {
+      &:before {
+        content: '-';
+        color: $hit;
+        left: 0;
+        padding: 5px;
+      }
     }
   }
 }
