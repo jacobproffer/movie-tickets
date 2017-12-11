@@ -40,13 +40,16 @@ $(document).ready(function() {
     .done(function( json ) {
       // Loop through data and output html
       $.each(json, function(i, item) {
+        var date = new Date(0);
+        date.setUTCSeconds(item.data_date);
+        day = moment(date).format("MMMM Do YYYY");
         movietickets.append(
           "<div class='ticket-row'>" +
             "<div class='ticket-col'>" +
               "<h2>" + item.title + "</h2><span class='theatres' data-theatre='" + item.theatre + "'>" + item.theatre + "</span>" +
             "</div>" +
             "<div class='ticket-col'>" +
-              "<h4 class='date' data-date='" + item.date + "'>" + item.date + "</h4>" +
+              "<h4 class='date' data-date='" + item.data_date + "'>" + day + "</h4>" +
             "</div>" +
           "</div>"
         );
