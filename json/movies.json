@@ -1074,21 +1074,18 @@
     "title": "Jigsaw",
     "genre": "Horror",
     "data_date": 1509148800,
-    "date": "10/28/2017",
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Murder on the Orient Express",
     "genre": "Mystery",
     "data_date": 1510444800,
-    "date": "11/12/2017",
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Godzilla",
     "genre": "Sci-Fi",
     "data_date": 1510963200,
-    "date": "11/18/2017",
     "theatre": "TOHO Cinemas Shinjuku"
   }
 ]

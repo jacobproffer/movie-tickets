@@ -12,6 +12,7 @@ var gulp        = require('gulp'),
 var scripts = [
   '../assets/js/lib/headroom/headroom.min.js',
   '../assets/js/lib/headroom/jquery.headroom.js',
+  '../assets/js/lib/moments/moments.js',
   '../assets/js/app.js'
 ];
 
