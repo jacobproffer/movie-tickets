@@ -1099,5 +1099,17 @@
     "genre": "Action",
     "data_date": 1516597200,
     "theatre": "Thomas Theatre Group"
+  },
+  {
+    "title": "Jumanji: Welcome to the Jungle",
+    "genre": "Fantasy",
+    "data_date": 1517011200,
+    "theatre": "Thomas Theatre Group"
+  },
+  {
+    "title": "Den of Thieves",
+    "genre": "Crime",
+    "data_date": 1517097600,
+    "theatre": "Thomas Theatre Group"
   }
 ]
