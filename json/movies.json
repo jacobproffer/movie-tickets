@@ -1123,5 +1123,11 @@
     "genre": "Thriller",
     "data_date": 1520312400,
     "theatre": "Thomas Theatre Group"
+  },
+  {
+    "title": "Pacific Rim Uprising",
+    "genre": "Sci-Fi",
+    "data_date": 1521864000,
+    "theatre": "Thomas Theatre Group"
   }
 ]
