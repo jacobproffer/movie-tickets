@@ -1135,5 +1135,11 @@
     "genre": "Fantasy",
     "data_date": 1522296000,
     "theatre": "Thomas Theatre Group"
+  },
+  {
+    "title": "A Quiet Place",
+    "genre": "Thriller",
+    "data_date": 1522987200,
+    "theatre": "Thomas Theatre Group"
   }
 ]
