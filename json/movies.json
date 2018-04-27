@@ -1147,5 +1147,11 @@
     "genre": "Crime",
     "data_date": 1524196800,
     "theatre": "Thomas Theatre Group"
+  },
+  {
+    "title": "Die Hard",
+    "genre": "Action",
+    "data_date": 1524715200,
+    "theatre": "Thomas Theatre Group"
   }
 ]
