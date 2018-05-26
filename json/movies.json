@@ -1165,5 +1165,11 @@
     "genre": "Fantasy",
     "data_date": 1526788800,
     "theatre": "Sambíó Egilshöll"
+  },
+  {
+    "title": "Solo: A Star Wars Story",
+    "genre": "Sci-Fi",
+    "data_date": 1527307200,
+    "theatre": "Thomas Theatre Group"
   }
 ]
