@@ -1,43 +1,45 @@
-var theatres,
-    count,
-    num,
-    body = $('body'),
-    movietickets = $('.movie-tickets'),
-    mainHeader = $('header');
+var theatres;
+var count;
+var num;
+var body = $("body");
+var movietickets = $(".movie-tickets");
+var mainHeader = $("header");
+var ctx;
+var chart;
 
 $(document).ready(function() {
-
   // Open modal
-  $('.open-info-modal').click(function() {
-    $('.info-modal').removeClass('close-info-modal');
-    body.addClass('stop-scroll');
-    body.addClass('disable-scrolling');
+  $(".open-info-modal").click(function() {
+    $(".info-modal").removeClass("close-info-modal");
+    body.addClass("stop-scroll");
+    body.addClass("disable-scrolling");
   });
 
   // Close modal
-  $('.info-modal-close').click(function() {
-    $('.info-modal').addClass('close-info-modal');
-    body.removeClass('stop-scroll');
-    body.removeClass('disable-scrolling');
+  $(".info-modal-close").click(function() {
+    $(".info-modal").addClass("close-info-modal");
+    body.removeClass("stop-scroll");
+    body.removeClass("disable-scrolling");
   });
 
   // Disable scrolling if modal is open
-  document.ontouchmove = function ( event ) {
-    var isTouchMoveAllowed = true, target = event.target;
-    while ( target !== null ) {
-      if ( target.classList && target.classList.contains( 'disable-scrolling' ) ) {
+  document.ontouchmove = function(event) {
+    var isTouchMoveAllowed = true,
+      target = event.target;
+    while (target !== null) {
+      if (target.classList && target.classList.contains("disable-scrolling")) {
         isTouchMoveAllowed = false;
         break;
       }
       target = target.parentNode;
     }
-    if ( !isTouchMoveAllowed ) {
+    if (!isTouchMoveAllowed) {
       event.preventDefault();
     }
   };
 
-  $.getJSON( "json/movies.json" )
-    .done(function( json ) {
+  $.getJSON("json/movies.json")
+    .done(function(json) {
       // Loop through data and output html
       $.each(json, function(i, item) {
         var date = new Date(0);
@@ -46,62 +48,99 @@ $(document).ready(function() {
         movietickets.append(
           "<div class='ticket-row'>" +
             "<div class='ticket-col'>" +
-              "<h2>" + item.title + "</h2><span class='theatres' data-theatre='" + item.theatre + "'>" + item.theatre + "</span>" +
+            "<h2>" +
+            item.title +
+            "</h2><span class='theatres' data-theatre='" +
+            item.theatre +
+            "'>" +
+            item.theatre +
+            "</span>" +
             "</div>" +
             "<div class='ticket-col'>" +
-              "<h4 class='date' data-date='" + item.data_date + "'>" + day + "</h4>" +
+            "<h4 class='date' data-date='" +
+            item.data_date +
+            "'>" +
+            day +
+            "</h4>" +
             "</div>" +
-          "</div>"
+            "</div>"
         );
       });
       // Sort movies by epoch date
-      $(".movie-tickets .ticket-row").sort(function (a, b) {
-          return new Date($(".date", b).data("date")) - new Date($(".date", a).data("date"));
-      }).appendTo(".movie-tickets");
+      $(".movie-tickets .ticket-row")
+        .sort(function(a, b) {
+          return (
+            new Date($(".date", b).data("date")) -
+            new Date($(".date", a).data("date"))
+          );
+        })
+        .appendTo(".movie-tickets");
       // Count number of movies
       num = $(".ticket-row").length;
       $("#numOfMovies").html(" " + num);
       // Count theatres
       theatres = [];
-      $('span.theatres').each(function() {
-        theatres[$(this).attr('data-theatre')] = true;
+      $("span.theatres").each(function() {
+        theatres[$(this).attr("data-theatre")] = true;
       });
       count = [];
-      for( var i in theatres ) {
+      for (var i in theatres) {
         count.push(i);
       }
-      $('#numOfTheatres').html(" " + count.length);
+      $("#numOfTheatres").html(" " + count.length);
     })
-    .fail(function( jqxhr, textStatus, error ) {
+    .fail(function(jqxhr, textStatus, error) {
       var err = textStatus + ", " + error;
-      console.log( "Request Failed: " + err );
-  });
-
-
+      console.log("Request Failed: " + err);
+    });
 
   /* Headroom.js settings
     ========================================================================== */
 
   mainHeader.headroom({
-    offset    : 0,
-    tolerance   : 0,
-    classes : {
-      pinned   : "pinned",
-      unpinned : "unpinned",
-      top      : "onTop",
-      bottom   : "onBottom",
-      notTop   : "scrolled"
+    offset: 0,
+    tolerance: 0,
+    classes: {
+      pinned: "pinned",
+      unpinned: "unpinned",
+      top: "onTop",
+      bottom: "onBottom",
+      notTop: "scrolled"
     },
-  	onUnpin : function() {
-  		if ( mainHeader.hasClass('open') ) {
-  			mainHeader.removeClass('unpinned');
-  		}
-  	},
-    onTop : function() {
-      mainHeader.removeClass('pinned');
+    onUnpin: function() {
+      if (mainHeader.hasClass("open")) {
+        mainHeader.removeClass("unpinned");
+      }
+    },
+    onTop: function() {
+      mainHeader.removeClass("pinned");
     }
   });
 
-
-
+  ctx = document.getElementById("chart").getContext("2d");
+  chart = new Chart(ctx, {
+    type: "bar",
+    data: {
+      labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+      datasets: [
+        {
+          label: "# of Votes",
+          data: [3, 4, 4, 5, 2, 5],
+          backgroundColor: "rgba(238, 238, 238, 1)",
+          hoverBackgroundColor: "rgba(134, 172, 122, 1)"
+        }
+      ]
+    },
+    options: {
+      scales: {
+        yAxes: [
+          {
+            ticks: {
+              beginAtZero: true
+            }
+          }
+        ]
+      }
+    }
+  });
 });

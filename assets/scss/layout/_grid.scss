@@ -1,8 +1,19 @@
+@import "superior";
+
 .container {
-	position: relative;
-	width: 95%;
-	max-width: 1200px;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 0 2.5%;
+  position: relative;
+  width: 95%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 2.5%;
+}
+
+.grid {
+  @include cols;
+}
+
+.grid-item {
+  @include make-flex(6);
+  position: relative;
 }
