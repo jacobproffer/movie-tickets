@@ -33,5 +33,9 @@ body {
 
 h1,
 h2 {
-  color: $red;
+  color: $yellow;
+}
+
+canvas {
+  width: 100% !important;
 }

@@ -108,7 +108,10 @@ $(document).ready(function() {
       datasets: [
         {
           data: [4, 7, 25, 20, 5, 17, 21, 16, 14, 7, 22, 13],
-          borderColor: "rgba(238, 238, 238, 1)"
+          borderColor: "rgba(238, 238, 238, 1)",
+          pointRadius: 5,
+          pointBackgroundColor: "rgba(239, 201, 84, 1)",
+          pointBorderColor: "rgba(255, 255, 255, 0)"
         }
       ]
     },

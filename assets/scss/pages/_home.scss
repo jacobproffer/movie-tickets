@@ -1,7 +1,11 @@
+.data {
+  padding: 150px 0 100px;
+}
+
 .movies {
   position: relative;
   width: 100%;
-  padding: 100px 0 150px;
+  padding: 0 0 150px;
 }
 
 .ticket-row {
@@ -24,12 +28,12 @@
     @include screen-above(1024px) {
       &:before {
         content: "-";
-        color: $hit;
+        color: $white;
         left: 0;
         padding: 5px;
       }
     }
-    color: $hit;
+    color: $white;
   }
 }
 
@@ -38,4 +42,5 @@
   @include screen-above(768px) {
     @include update-flex(6);
   }
+  padding: 0;
 }
