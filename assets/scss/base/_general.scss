@@ -4,22 +4,34 @@
   @include box-sizing(border-box);
 }
 
-::-moz-selection { color: $black; background: $selection; }
-::selection { color: $black; background: $selection; }
-
-img {
-	max-width: 100%;
+::-moz-selection {
+  color: $black;
+  background: $selection;
+}
+::selection {
+  color: $black;
+  background: $selection;
 }
 
-html, body {
-    width: 100%;
-    height: 100%;
+img {
+  max-width: 100%;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
 }
 
 body {
   position: relative;
   font-size: 16px;
-  color: $black;
-  background: $white;
-  font-family: 'Roboto', sans-serif;
+  color: $white;
+  background: $body;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2 {
+  color: $red;
 }

@@ -8,36 +8,6 @@ var ctx;
 var chart;
 
 $(document).ready(function() {
-  // Open modal
-  $(".open-info-modal").click(function() {
-    $(".info-modal").removeClass("close-info-modal");
-    body.addClass("stop-scroll");
-    body.addClass("disable-scrolling");
-  });
-
-  // Close modal
-  $(".info-modal-close").click(function() {
-    $(".info-modal").addClass("close-info-modal");
-    body.removeClass("stop-scroll");
-    body.removeClass("disable-scrolling");
-  });
-
-  // Disable scrolling if modal is open
-  document.ontouchmove = function(event) {
-    var isTouchMoveAllowed = true,
-      target = event.target;
-    while (target !== null) {
-      if (target.classList && target.classList.contains("disable-scrolling")) {
-        isTouchMoveAllowed = false;
-        break;
-      }
-      target = target.parentNode;
-    }
-    if (!isTouchMoveAllowed) {
-      event.preventDefault();
-    }
-  };
-
   $.getJSON("json/movies.json")
     .done(function(json) {
       // Loop through data and output html
@@ -46,7 +16,7 @@ $(document).ready(function() {
         date.setUTCSeconds(item.data_date);
         day = moment(date).format("MMMM Do YYYY");
         movietickets.append(
-          "<div class='ticket-row'>" +
+          "<div class='grid ticket-row'>" +
             "<div class='ticket-col'>" +
             "<h2>" +
             item.title +
@@ -119,15 +89,26 @@ $(document).ready(function() {
 
   ctx = document.getElementById("chart").getContext("2d");
   chart = new Chart(ctx, {
-    type: "bar",
+    type: "line",
     data: {
-      labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+      labels: [
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018"
+      ],
       datasets: [
         {
-          label: "# of Votes",
-          data: [3, 4, 4, 5, 2, 5],
-          backgroundColor: "rgba(238, 238, 238, 1)",
-          hoverBackgroundColor: "rgba(134, 172, 122, 1)"
+          data: [4, 7, 25, 20, 5, 17, 21, 16, 14, 7, 22, 13],
+          borderColor: "rgba(238, 238, 238, 1)"
         }
       ]
     },
@@ -140,6 +121,9 @@ $(document).ready(function() {
             }
           }
         ]
+      },
+      legend: {
+        display: false
       }
     }
   });
