@@ -3,48 +3,56 @@
     "title": "The Equalizer",
     "genre": "Action",
     "data_date": 1411862400,
+    "year": 2014,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "American Sniper",
     "genre": "Action",
     "data_date": 1421539200,
+    "year": 2015,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Battleship",
     "genre": "Sci-Fi",
     "data_date": 1337385600,
+    "year": 2012,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "The Last Song",
     "genre": "Romance",
     "data_date": 1269993600,
+    "year": 2010,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Edge of Tomorrow",
     "genre": "Sci-Fi",
     "data_date": 1402185600,
+    "year": 2014,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "A Good Day to Die",
     "genre": "Action",
     "data_date": 1361059200,
+    "year": 2013,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Independence Day: Resurgence",
     "genre": "Sci-Fi",
     "data_date": 1466640000,
+    "year": 2016,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "The Expendables 3",
     "genre": "Action",
     "data_date": 1408233600,
+    "year": 2014,
     "theatre": "Thomas Theatre Group"
   },
   {

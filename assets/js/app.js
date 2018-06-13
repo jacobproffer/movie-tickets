@@ -8,9 +8,31 @@ var ctx;
 var chart;
 
 $(document).ready(function() {
+  function groupByYear(arr) {
+    var groupBy = {};
+    $.each(arr, function() {
+      groupBy[this.year] = 1 + (groupBy[this.year] || 0);
+    });
+    return groupBy;
+  }
+
+  function createArray(obj) {
+    var arr = [];
+    Object.keys(obj).forEach(function(key) {
+      arr.push({
+        year: key,
+        count: obj[key]
+      });
+    });
+    return arr;
+  }
+
   $.getJSON("json/movies.json")
     .done(function(json) {
       // Loop through data and output html
+      var obj = groupByYear(json);
+      var resArray = createArray(obj);
+      console.log(resArray);
       $.each(json, function(i, item) {
         var date = new Date(0);
         date.setUTCSeconds(item.data_date);
@@ -35,6 +57,43 @@ $(document).ready(function() {
             "</div>" +
             "</div>"
         );
+      });
+      var years = [];
+      var count = [];
+      $.each(resArray, function(i, obj) {
+        years.push(obj.year);
+        count.push(obj.count);
+      });
+      console.log(years);
+      ctx = document.getElementById("chart").getContext("2d");
+      chart = new Chart(ctx, {
+        type: "line",
+        data: {
+          labels: years,
+          datasets: [
+            {
+              data: count,
+              borderColor: "rgba(238, 238, 238, 1)",
+              pointRadius: 5,
+              pointBackgroundColor: "rgba(239, 201, 84, 1)",
+              pointBorderColor: "rgba(255, 255, 255, 0)"
+            }
+          ]
+        },
+        options: {
+          scales: {
+            yAxes: [
+              {
+                ticks: {
+                  beginAtZero: true
+                }
+              }
+            ]
+          },
+          legend: {
+            display: false
+          }
+        }
       });
       // Sort movies by epoch date
       $(".movie-tickets .ticket-row")
@@ -64,8 +123,6 @@ $(document).ready(function() {
       console.log("Request Failed: " + err);
     });
 
-  // Headroom
-
   mainHeader.headroom({
     offset: 0,
     tolerance: 0,
@@ -83,52 +140,6 @@ $(document).ready(function() {
     },
     onTop: function() {
       mainHeader.removeClass("pinned");
-    }
-  });
-
-  // Charts
-
-  ctx = document.getElementById("chart").getContext("2d");
-  chart = new Chart(ctx, {
-    type: "line",
-    data: {
-      labels: [
-        "2007",
-        "2008",
-        "2009",
-        "2010",
-        "2011",
-        "2012",
-        "2013",
-        "2014",
-        "2015",
-        "2016",
-        "2017",
-        "2018"
-      ],
-      datasets: [
-        {
-          data: [4, 7, 25, 20, 5, 17, 21, 16, 14, 7, 22, 13],
-          borderColor: "rgba(238, 238, 238, 1)",
-          pointRadius: 5,
-          pointBackgroundColor: "rgba(239, 201, 84, 1)",
-          pointBorderColor: "rgba(255, 255, 255, 0)"
-        }
-      ]
-    },
-    options: {
-      scales: {
-        yAxes: [
-          {
-            ticks: {
-              beginAtZero: true
-            }
-          }
-        ]
-      },
-      legend: {
-        display: false
-      }
     }
   });
 });
