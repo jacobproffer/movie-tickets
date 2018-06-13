@@ -14,8 +14,8 @@
   "license": "MIT",
   "homepage": "https://github.com/jacobproffer/movies",
   "devDependencies": {
-    "gulp": "^3.9.1",
     "browser-sync": "^2.12.8",
+    "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-concat": "^2.6.0",
     "gulp-cssmin": "^0.2.0",
@@ -24,5 +24,8 @@
     "gulp-sass": "^4.0.1",
     "gulp-uglify": "^3.0.0",
     "gulp-watch": "^5.0.0"
+  },
+  "dependencies": {
+    "superior-scss": "^3.0.2"
   }
 }

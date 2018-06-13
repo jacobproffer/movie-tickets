@@ -1,122 +1,46 @@
-.info-modal {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 3;
-  overflow: hidden;
-  -webkit-overflow-scrolling: touch;
-  background: $white;
-  color: $black;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  @include transition(all 300ms ease-in-out);
-}
-
-.info-modal-close {
-  cursor: pointer;
-}
-
-.close-info-modal {
-  @include transform(translateY(100%));
-}
-
-.stop-scroll {
-  overflow: hidden;
-  width: 100%;
-}
-
-.info-modal-container {
-  max-width: 600px;
-  padding: 0 20px;
-  padding: 0 1.25rem;
-  line-height: 1.5;
+.data {
+  padding: 150px 0 100px;
 }
 
 .movies {
   position: relative;
   width: 100%;
-  padding: 100px 0 150px;
+  padding: 0 0 150px;
 }
 
 .ticket-row {
-  background: $white;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-content: flex-start;
-  -ms-flex-line-pack: start;
-  align-content: flex-start;
-  -webkit-align-items: flex-end;
-  -ms-flex-align: end;
-  align-items: flex-end;
   padding: 15px 0;
   border-top: 1px solid $gray;
+
   h2 {
     @include screen-above(1024px) {
       display: inline-block;
     }
   }
-  h2,
-  h3,
-  h4 {
-    margin: 0;
-    padding: 0;
-  }
-  h3,
-  h4 {
-    color: $hit;
-  }
+
   h4 {
     @include screen-above(768px) {
       text-align: right;
     }
   }
+
   span {
-    color: $hit;
     @include screen-above(1024px) {
       &:before {
-        content: '-';
-        color: $hit;
+        content: "-";
+        color: $white;
         left: 0;
         padding: 5px;
       }
     }
+    color: $white;
   }
 }
 
 .ticket-col {
-  -webkit-order: 0;
-  -ms-flex-order: 0;
-  order: 0;
-  -webkit-flex: 0 1 100%;
-  -ms-flex: 0 1 100%;
-  flex: 0 1 100%;
-  max-width: 100%;
-  -webkit-align-self: auto;
-  -ms-flex-item-align: auto;
-  align-self: auto;
+  @include make-flex(12);
   @include screen-above(768px) {
-    -webkit-flex: 0 1 50%;
-    -ms-flex: 0 1 50%;
-    flex: 0 1 50%;
-    max-width: 50%;
+    @include update-flex(6);
   }
+  padding: 0;
 }

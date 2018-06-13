@@ -1,14 +1,10 @@
-// Colors
-
-$white     : #F7F8F9;
-$black     : #000000;
-$green     : #86AC7A;
-$orange    : #AA5B28;
-$gray      : #EEEEEE;
-$selection : rgba(147, 138, 130, .25);
-$border    : rgba(147, 138, 130, .25);
-
-$body      : #ECEEF1;
-$header    : #AA9F96;
-$copy      : #2B71D9;
-$hit       : #A5ACB7;
+$white: #ffffff;
+$black: #2f302f;
+$gray: #b7bbb4;
+$selection: rgba(147, 138, 130, 0.25);
+$border: rgba(147, 138, 130, 0.25);
+$body: $black;
+$header: #aa9f96;
+$copy: #2b71d9;
+$hit: $gray;
+$yellow: #efc954;
