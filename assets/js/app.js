@@ -64,8 +64,7 @@ $(document).ready(function() {
       console.log("Request Failed: " + err);
     });
 
-  /* Headroom.js settings
-    ========================================================================== */
+  // Headroom
 
   mainHeader.headroom({
     offset: 0,
@@ -86,6 +85,8 @@ $(document).ready(function() {
       mainHeader.removeClass("pinned");
     }
   });
+
+  // Charts
 
   ctx = document.getElementById("chart").getContext("2d");
   chart = new Chart(ctx, {
