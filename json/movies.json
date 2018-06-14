@@ -59,972 +59,1134 @@
     "title": "The Hangover 3",
     "genre": "Comedy",
     "data_date": 1369353600,
+    "year": 2013,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Guardians of the Galaxy Vol. 2",
     "genre": "Sci-Fi",
     "data_date": 1494633600,
+    "year": 2017,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "He's Just Not That Into You",
     "genre": "Romance",
     "data_date": 1236643200,
+    "year": 2009,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Victor Frankenstein",
     "genre": "Sci-Fi",
     "data_date": 1422403200,
+    "year": 2015,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Did You Hear About the Morgans?",
     "genre": "Romance",
     "data_date": 1261872000,
+    "year": 2009,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Magic Mike",
     "genre": "Drama",
     "data_date": 1342310400,
+    "year": 2012,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "The Hangover 2",
     "genre": "Comedy",
     "data_date": 1307836800,
+    "year": 2011,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Zero Dark Thirty",
     "genre": "Action",
     "data_date": 1358121600,
+    "year": 2013,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Wild Hogs",
     "genre": "Comedy",
     "data_date": 1173484800,
+    "year": 2007,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Yes Man",
     "genre": "Comedy",
     "data_date": 1230422400,
+    "year": 2008,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Prom Night",
     "genre": "Thriller",
     "data_date": 1208563200,
+    "year": 2008,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Traitor",
     "genre": "Action",
     "data_date": 1220659200,
+    "year": 2008,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "The Town",
     "genre": "Crime",
     "data_date": 1285372800,
+    "year": 2010,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Prometheus",
     "genre": "Sci-Fi",
     "data_date": 1339804800,
+    "year": 2012,
     "theatre": "AMC Empire 25"
   },
   {
     "title": "Hancock",
     "genre": "Action",
     "data_date": 1216425600,
+    "year": 2008,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "22 Jump Street",
     "genre": "Comedy",
     "data_date": 1402617600,
+    "year": 2014,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Terminator Salvation",
     "genre": "Thriller",
     "data_date": 1242950400,
+    "year": 2009,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Disturbia",
     "genre": "Thriller",
     "data_date": 1176508800,
+    "year": 2007,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Jurassic 3D",
     "genre": "Fantasy",
     "data_date": 1365120000,
+    "year": 2013,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Zombieland",
     "genre": "Comedy",
     "data_date": 1254528000,
+    "year": 2009,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "2012",
     "genre": "Sci-Fi",
     "data_date": 1254528000,
+    "year": 2009,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Bruno",
     "genre": "Comedy",
     "data_date": 1247270400,
+    "year": 2009,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "I Love You, Man",
     "genre": "Romance",
     "data_date": 1238284800,
+    "year": 2009,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Avatar 3D",
     "genre": "Sci-Fi",
     "data_date": 1261958400,
+    "year": 2009,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Jackass 3D",
     "genre": "Comedy",
     "data_date": 1287720300,
+    "year": 2010,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Paranormal",
     "genre": "Thriller",
     "data_date": 1256270700,
+    "year": 2009,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Rogue One: A Star Wars Story",
     "genre": "Sci-Fi",
     "data_date": 1482019200,
+    "year": 2016,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Star Wars: The Force Awakens",
     "genre": "Sci-Fi",
     "data_date": 1451088000,
+    "year": 2015,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Fifty Shades of Grey",
     "genre": "Drama",
     "data_date": 1423785600,
+    "year": 2015,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Sicario",
     "genre": "Thriller",
     "data_date": 1444262400,
+    "year": 2015,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "The A-Team",
     "genre": "Thriller",
     "data_date": 1277078400,
+    "year": 2010,
     "theatre": "Regal Entertainment Group"
   },
   {
     "title": "World War Z",
     "genre": "Thriller",
     "data_date": 1371945600,
+    "year": 2013,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Spiderman 3",
     "genre": "Sci-Fi",
     "data_date": 1180137600,
+    "year": 2007,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Krampus",
     "genre": "Horror",
     "data_date": 1449204000,
+    "year": 2015,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Hercules",
     "genre": "Fantasy",
     "data_date": 1406419200,
+    "year": 2014,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Hell or High Water",
     "genre": "Crime",
     "data_date": 1473552000,
+    "year": 2016,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Penguins of Madagascar",
     "genre": "Adventure",
     "data_date": 1418256000,
+    "year": 2014,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Mission Impossible: Rogue Nation",
     "genre": "Action",
     "data_date": 1438905600,
+    "year": 2015,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Deadpool",
     "genre": "Fantasy",
     "data_date": 1455580800,
+    "year": 2016,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Straight Outta Compton",
     "genre": "Drama",
     "data_date": 1439769600,
+    "year": 2015,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Black Mass",
     "genre": "Crime",
     "data_date": 1442534400,
+    "year": 2015,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Entourage",
     "genre": "Drama",
     "data_date": 1433289600,
+    "year": 2015,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Hardcore Henry",
     "genre": "Action",
     "data_date": 1459987200,
+    "year": 2016,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Alien: Covenant",
     "genre": "Sci-Fi",
     "data_date": 1495152000,
+    "year": 2017,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Beauty and the Beast",
     "genre": "Fantasy",
     "data_date": 1489795200,
+    "year": 2017,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Patriots Day",
     "genre": "Thriller",
     "data_date": 1484784000,
+    "year": 2017,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "John Wick: Chapter 2",
     "genre": "Action",
     "data_date": 1487030400,
+    "year": 2017,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Fifty Shades Darker",
     "genre": "Drama",
     "data_date": 1486598400,
+    "year": 2017,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Warcraft",
     "genre": "Fantasy",
     "data_date": 1465430400,
+    "year": 2016,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Dumb and Dumber To",
     "genre": "Comedy",
     "data_date": 1416528000,
+    "year": 2014,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Jurassic World",
     "genre": "Fantasy",
     "data_date": 1434067200,
+    "year": 2015,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Fury",
     "genre": "Action",
     "data_date": 1413590400,
+    "year": 2014,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Nightcrawler",
     "genre": "Crime",
     "data_date": 1415750400,
+    "year": 2014,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "The Man from U.N.C.L.E.",
     "genre": "Action",
     "data_date": 1440806400,
+    "year": 2015,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Spectre",
     "genre": "Action",
     "data_date": 1446681600,
+    "year": 2015,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "The Night Before",
     "genre": "Comedy",
     "data_date": 1447891200,
+    "year": 2015,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Ghostbusters",
     "genre": "Action",
     "data_date": 1409356800,
+    "year": 2014,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Pride and Prejudice and Zombies",
     "genre": "Thriller",
     "data_date": 1455235200,
+    "year": 2016,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Nightmare on Elm Street",
     "genre": "Horror",
     "data_date": 1414627200,
+    "year": 2014,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Saw VI",
     "genre": "Horror",
     "data_date": 1256947200,
+    "year": 2009,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Funny People",
     "genre": "Comedy",
     "data_date": 1250726400,
+    "year": 2009,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Beetlejuice",
     "genre": "Comedy",
     "data_date": 1414627200,
+    "year": 2014,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "A Million Ways to Die in the West",
     "genre": "Comedy",
     "data_date": 1402531200,
+    "year": 2014,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Bad Teacher",
     "genre": "Comedy",
     "data_date": 1309478400,
+    "year": 2011,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Project X",
     "genre": "Comedy",
     "data_date": 1330819200,
+    "year": 2012,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "The Final Destination",
     "genre": "Horror",
     "data_date": 1251849600,
+    "year": 2009,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "The Proposal",
     "genre": "Drama",
     "data_date": 1247443200,
+    "year": 2009,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Harold & Kumar Escape from Guantanamo Bay",
     "genre": "Comedy",
     "data_date": 1210377600,
+    "year": 2008,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "The Mechanic",
     "genre": "Thriller",
     "data_date": 1297555200,
+    "year": 2011,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Youth in Revolt",
     "genre": "Drama",
     "data_date": 1262995200,
+    "year": 2010,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Thor: The Dark World",
     "genre": "Fantasy",
     "data_date": 1385251200,
+    "year": 2013,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Brothers",
     "genre": "Drama",
     "data_date": 1260489600,
+    "year": 2009,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Night at the Museum",
     "genre": "Fantasy",
     "data_date": 1243728000,
+    "year": 2009,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Knight & Day",
     "genre": "Action",
     "data_date": 1277942400,
+    "year": 2010,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "The Purge",
     "genre": "Thriller",
     "data_date": 1370649600,
+    "year": 2013,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Warm Bodies",
     "genre": "Drama",
     "data_date": 1359763200,
+    "year": 2013,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "I Now Pronounce You Chuck & Larry",
     "genre": "Comedy",
     "data_date": 1185148800,
+    "year": 2007,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Transformers: Revenge of the Fallen",
     "genre": "Sci-Fi",
     "data_date": 1245801600,
+    "year": 2009,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "All About Steve",
     "genre": "Comedy",
     "data_date": 1254700800,
+    "year": 2009,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Four Christmases",
     "genre": "Drama",
     "data_date": 1229385600,
+    "year": 2008,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Stepfather",
     "genre": "Thriller",
     "data_date": 1255651200,
+    "year": 2009,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Get Him to the Greek",
     "genre": "Thriller",
     "data_date": 1275696000,
+    "year": 2010,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Harry Potter and the Half-Blood Prince",
     "genre": "Fantasy",
     "data_date": 1247616000,
+    "year": 2009,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "The Lovely Bones",
     "genre": "Drama",
     "data_date": 1263513600,
+    "year": 2010,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Robin Hood",
     "genre": "Drama",
     "data_date": 1273795200,
+    "year": 2010,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Shutter Island",
     "genre": "Thriller",
     "data_date": 1266537600,
+    "year": 2010,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Ted",
     "genre": "Comedy",
     "data_date": 1341878400,
+    "year": 2012,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Pain & Gain",
     "genre": "Crime",
     "data_date": 1367107200,
+    "year": 2013,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Contagion",
     "genre": "Sci-Fi",
     "data_date": 1316217600,
+    "year": 2011,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Harry Potter and the Deathly Hallows – Part 2",
     "genre": "Fantasy",
     "data_date": 1310774400,
+    "year": 2011,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Valentine's Day",
     "genre": "Romance",
     "data_date": 1266451200,
+    "year": 2010,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Chernobyl",
     "genre": "Horror",
     "data_date": 1338163200,
+    "year": 2012,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "A Good Day to Die Hard",
     "genre": "Action",
     "data_date": 1361059200,
+    "year": 2013,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "4th Kind",
     "genre": "Sci-Fi",
     "data_date": 1257465600,
+    "year": 2009,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Red 2",
     "genre": "Crime",
     "data_date": 1374537600,
+    "year": 2013,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Predators",
     "genre": "Sci-Fi",
     "data_date": 1278979200,
+    "year": 2010,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "The Hangover",
     "genre": "Comedy",
     "data_date": 1244419200,
+    "year": 2009,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "This is the End",
     "genre": "Fantasy",
     "data_date": 1370217600,
+    "year": 2013,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Monsters, Inc. 3D",
     "genre": "Fantasy",
     "data_date": 1356307200,
+    "year": 2013,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Bad Grandpa",
     "genre": "Comedy",
     "data_date": 1382659200,
+    "year": 2013,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Monsters University",
     "genre": "Fantasy",
     "data_date": 1374364800,
+    "year": 2013,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "The Twilight Saga: New Moon",
     "genre": "Fantasy",
     "data_date": 1259625600,
+    "year": 2009,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "The Twilight Saga: Breaking Dawn – Part 2",
     "genre": "Fantasy",
     "data_date": 1352937600,
+    "year": 2012,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Sabotage",
     "genre": "Crime",
     "data_date": 1396224000,
+    "year": 2014,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "End of Watch",
     "genre": "Crime",
     "data_date": 1348358400,
+    "year": 2012,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Step Up Revolution",
     "genre": "Drama",
     "data_date": 1343347200,
+    "year": 2012,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Friday the 13th",
     "genre": "Horror",
     "data_date": 1234483200,
+    "year": 2009,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Need for Speed",
     "genre": "Drama",
     "data_date": 1394755200,
+    "year": 2014,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Captain Phillips",
     "genre": "Thriller",
     "data_date": 1382400000,
+    "year": 2013,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Ice Age: Continental Drift",
     "genre": "Fantasy",
     "data_date": 1344038400,
+    "year": 2012,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "The Dark Knight Rises",
     "genre": "Crime",
     "data_date": 1343001600,
+    "year": 2012,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Godzilla",
     "genre": "Thriller",
     "data_date": 1400198400,
+    "year": 2014,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Snow White and the Huntsman",
     "genre": "Fantasy",
     "data_date": 1339459200,
+    "year": 2012,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "The Green Zone",
     "genre": "Thriller",
     "data_date": 1269820800,
+    "year": 2010,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Tropic Thunder",
     "genre": "Action",
     "data_date": 1218931200,
+    "year": 2008,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Men in Black 3",
     "genre": "Sci-Fi",
     "data_date": 1337904000,
+    "year": 2012,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Act of Valor",
     "genre": "Drama",
     "data_date": 1330905600,
+    "year": 2012,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Halloween 2",
     "genre": "Horror",
     "data_date": 1251417600,
+    "year": 2009,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Up in the Air",
     "genre": "Drama",
     "data_date": 1263340800,
+    "year": 2010,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Year One",
     "genre": "Comedy",
     "data_date": 1246233600,
+    "year": 2009,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Karate Kid",
     "genre": "Action",
     "data_date": 1276387200,
+    "year": 2010,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "The Twilight Saga: Eclipse",
     "genre": "Fantasy",
     "data_date": 1278633600,
+    "year": 2010,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Dinner for Schmucks",
     "genre": "Comedy",
     "data_date": 1280448000,
+    "year": 2010,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "The Other Guys",
     "genre": "Crime",
     "data_date": 1281657600,
+    "year": 2010,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Step Up 3D",
     "genre": "Drama",
     "data_date": 1281139200,
+    "year": 2010,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Safe House",
     "genre": "Thriller",
     "data_date": 1329004800,
+    "year": 2012,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Pacific Rim",
     "genre": "Sci-Fi",
     "data_date": 1373760000,
+    "year": 2013,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Olympus Has Fallen",
     "genre": "Action",
     "data_date": 1363996800,
+    "year": 2013,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "G.I. Joe: Retaliation",
     "genre": "Action",
     "data_date": 1365379200,
+    "year": 2013,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Oblivion",
     "genre": "Action",
     "data_date": 1366502400,
+    "year": 2013,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "47 Ronin",
     "genre": "Fantasy",
     "data_date": 1388188800,
+    "year": 2013,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "The Family",
     "genre": "Thriller",
     "data_date": 1379210604,
+    "year": 2013,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "How to Train Your Dragon",
     "genre": "Fantasy",
     "data_date": 1269569141,
+    "year": 2010,
     "theatre": "Carmike Cinemas"
   },
   {
     "title": "Megan Leavey",
     "genre": "Drama",
     "data_date": 1497139200,
+    "year": 2017,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "It Comes at Night",
     "genre": "Thriller",
     "data_date": 1497052800,
+    "year": 2017,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "The Mummy",
     "genre": "Thriller",
     "data_date": 1498348800,
+    "year": 2017,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "The House",
     "genre": "Comedy",
     "data_date": 1498867200,
+    "year": 2017,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Baby Driver",
     "genre": "Crime",
     "data_date": 1499731200,
+    "year": 2017,
     "theatre": "AMC Empire 25"
   },
   {
     "title": "Dunkirk",
     "genre": "Drama",
     "data_date": 1500768000,
+    "year": 2017,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "The Hitmans Bodyguard",
     "genre": "Action",
     "data_date": 1503705600,
+    "year": 2017,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "It",
     "genre": "Horror",
     "data_date": 1504742400,
+    "year": 2017,
     "theatre": "Cinemark Tinseltown Grapevine"
   },
   {
     "title": "It",
     "genre": "Horror",
     "data_date": 1505001600,
+    "year": 2017,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Blade Runner 2049",
     "genre": "Sci-Fi",
     "data_date": 1507161600,
+    "year": 2017,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "The Foreigner",
     "genre": "Action",
     "data_date": 1508025600,
+    "year": 2017,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Geostorm",
     "genre": "Sci-Fi",
     "data_date": 1508544000,
+    "year": 2017,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Jigsaw",
     "genre": "Horror",
     "data_date": 1509148800,
+    "year": 2017,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Murder on the Orient Express",
     "genre": "Mystery",
     "data_date": 1510444800,
+    "year": 2017,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Godzilla",
     "genre": "Sci-Fi",
     "data_date": 1510963200,
+    "year": 2017,
     "theatre": "TOHO Cinemas Shinjuku"
   },
   {
     "title": "Star Wars: The Last Jedi",
     "genre": "Sci-Fi",
     "data_date": 1514264400,
+    "year": 2017,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "12 Strong",
     "genre": "Action",
     "data_date": 1516597200,
+    "year": 2018,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Jumanji: Welcome to the Jungle",
     "genre": "Fantasy",
     "data_date": 1517011200,
+    "year": 2018,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Den of Thieves",
     "genre": "Crime",
     "data_date": 1517097600,
+    "year": 2018,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "The 15:17 to Paris",
     "genre": "Thriller",
     "data_date": 1518498000,
+    "year": 2018,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Red Sparrow",
     "genre": "Thriller",
     "data_date": 1520312400,
+    "year": 2018,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Pacific Rim Uprising",
     "genre": "Sci-Fi",
     "data_date": 1521864000,
+    "year": 2018,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Ready Player One",
     "genre": "Fantasy",
     "data_date": 1522296000,
+    "year": 2018,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "A Quiet Place",
     "genre": "Thriller",
     "data_date": 1522987200,
+    "year": 2018,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Super Troopers 2",
     "genre": "Crime",
     "data_date": 1524196800,
+    "year": 2018,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Die Hard",
     "genre": "Action",
     "data_date": 1524715200,
+    "year": 2018,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Life of the Party",
     "genre": "Comedy",
     "data_date": 1526097600,
+    "year": 2018,
     "theatre": "Thomas Theatre Group"
   },
   {
     "title": "Deadpool 2",
     "genre": "Fantasy",
     "data_date": 1526788800,
+    "year": 2018,
     "theatre": "Sambíó Egilshöll"
   },
   {
     "title": "Solo: A Star Wars Story",
     "genre": "Sci-Fi",
     "data_date": 1527307200,
+    "year": 2018,
     "theatre": "Thomas Theatre Group"
   }
 ]

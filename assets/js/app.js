@@ -74,7 +74,7 @@ $(document).ready(function() {
             {
               data: count,
               borderColor: "rgba(238, 238, 238, 1)",
-              pointRadius: 5,
+              pointRadius: 4,
               pointBackgroundColor: "rgba(239, 201, 84, 1)",
               pointBorderColor: "rgba(255, 255, 255, 0)"
             }
@@ -92,6 +92,11 @@ $(document).ready(function() {
           },
           legend: {
             display: false
+          },
+          layout: {
+            padding: {
+              top: 10
+            }
           }
         }
       });
