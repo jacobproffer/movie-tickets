@@ -2,7 +2,7 @@ var theatres;
 var count;
 var num;
 var body = $("body");
-var movietickets = $(".movie-tickets");
+var movietickets = $(".movies__tickets");
 var mainHeader = $("header");
 var ctx;
 var chart;
@@ -32,14 +32,13 @@ $(document).ready(function() {
       // Loop through data and output html
       var obj = groupByYear(json);
       var resArray = createArray(obj);
-      console.log(resArray);
       $.each(json, function(i, item) {
         var date = new Date(0);
         date.setUTCSeconds(item.data_date);
         day = moment(date).format("MMMM Do YYYY");
         movietickets.append(
-          "<div class='grid ticket-row'>" +
-            "<div class='ticket-col'>" +
+          "<div class='data__grid movies__ticket__row'>" +
+            "<div class='movies__ticket__col'>" +
             "<h2>" +
             item.title +
             "</h2><span class='theatres' data-theatre='" +
@@ -48,7 +47,7 @@ $(document).ready(function() {
             item.theatre +
             "</span>" +
             "</div>" +
-            "<div class='ticket-col'>" +
+            "<div class='movies__ticket__col'>" +
             "<h4 class='date' data-date='" +
             item.data_date +
             "'>" +
@@ -64,7 +63,6 @@ $(document).ready(function() {
         years.push(obj.year);
         count.push(obj.count);
       });
-      console.log(years);
       ctx = document.getElementById("chart").getContext("2d");
       chart = new Chart(ctx, {
         type: "line",
@@ -96,16 +94,16 @@ $(document).ready(function() {
         }
       });
       // Sort movies by epoch date
-      $(".movie-tickets .ticket-row")
+      $(".movies__tickets .movies__ticket__row")
         .sort(function(a, b) {
           return (
             new Date($(".date", b).data("date")) -
             new Date($(".date", a).data("date"))
           );
         })
-        .appendTo(".movie-tickets");
+        .appendTo(".movies__tickets");
       // Count number of movies
-      num = $(".ticket-row").length;
+      num = $(".movies__ticket__row").length;
       $("#numOfMovies").html(" " + num);
       // Count theatres
       theatres = [];

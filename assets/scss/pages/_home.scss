@@ -1,5 +1,16 @@
+@import "superior";
+
 .data {
   padding: 150px 0 100px;
+}
+
+.data__grid {
+  @include cols;
+}
+
+.data__grid__item {
+  @include make-flex(6);
+  position: relative;
 }
 
 .movies {
@@ -8,7 +19,7 @@
   padding: 0 0 150px;
 }
 
-.ticket-row {
+.movies__ticket__row {
   padding: 15px 0;
   border-top: 1px solid $gray;
 
@@ -37,7 +48,7 @@
   }
 }
 
-.ticket-col {
+.movies__ticket__col {
   @include make-flex(12);
   @include screen-above(768px) {
     @include update-flex(6);
