@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8">
     <title>Movies</title>
-    <meta name="keywords" content="movie, tickets, movie tickets, archive" />
     <meta name="description" content="This site serves as an archive of the movies Jacob Proffer has seen in theatres, powered by JSON and JavaScript." />
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
@@ -34,33 +33,24 @@ ga("send", "pageview");
 </script>
   <body>
     <header class="header">
-      <div class="container">
+      <div class="container container--wide">
         <span>Movies</span>
       </div>
     </header>
     <section class="data">
-      <div class="container">
-        <div class="data__grid">
-          <div class="data__grid__item">
-            <h1>Movies Per Year</h1>
-          </div>
-          <div class="data__grid__item">
-            <canvas id="chart" width="100%" height="50vh" style="position: relative;"></canvas>
-          </div>
+      <div class="container container--mid">
+        <h1>Movies Per Year</h1>
+        <div class="data__chart">
+          <canvas id="chart" width="100%" height="50vh" style="position: relative;"></canvas>
         </div>
       </div>
     </section>
     <section class="movies">
-      <div class="container">
+      <div class="container container--mid">
         <div class="movies__tickets">
-          <!-- Date is outputed here -->
         </div>
       </div>
     </section>
-    <!-- <footer>
-      <div class="container">
-      </div>
-    </footer> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
     <script src="dist/js/app.min.js" charset="utf-8"></script>

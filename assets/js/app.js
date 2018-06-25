@@ -37,18 +37,18 @@ $(document).ready(function() {
         date.setUTCSeconds(item.data_date);
         day = moment(date).format("MMMM Do YYYY");
         movietickets.append(
-          "<div class='data__grid movies__ticket__row'>" +
+          "<div class='movies__grid movies__ticket__row'>" +
             "<div class='movies__ticket__col'>" +
             "<h2>" +
             item.title +
-            "</h2><span class='theatres' data-theatre='" +
+            "</h2><span class='movies__theatres' data-theatre='" +
             item.theatre +
             "'>" +
             item.theatre +
             "</span>" +
             "</div>" +
             "<div class='movies__ticket__col'>" +
-            "<h4 class='date' data-date='" +
+            "<h4 class='movies__date' data-date='" +
             item.data_date +
             "'>" +
             day +
@@ -97,24 +97,24 @@ $(document).ready(function() {
       $(".movies__tickets .movies__ticket__row")
         .sort(function(a, b) {
           return (
-            new Date($(".date", b).data("date")) -
-            new Date($(".date", a).data("date"))
+            new Date($(".movies__date", b).data("date")) -
+            new Date($(".movies__date", a).data("date"))
           );
         })
         .appendTo(".movies__tickets");
       // Count number of movies
       num = $(".movies__ticket__row").length;
-      $("#numOfMovies").html(" " + num);
+      $("#number-of-movies").html(" " + num);
       // Count theatres
       theatres = [];
-      $("span.theatres").each(function() {
+      $("span.movies__theatres").each(function() {
         theatres[$(this).attr("data-theatre")] = true;
       });
       count = [];
       for (var i in theatres) {
         count.push(i);
       }
-      $("#numOfTheatres").html(" " + count.length);
+      $("#number-of-theatres").html(" " + count.length);
     })
     .fail(function(jqxhr, textStatus, error) {
       var err = textStatus + ", " + error;

@@ -1,8 +1,19 @@
 .container {
+  @include screen-above(1280px) {
+    width: 100%;
+    padding: 0;
+  }
   position: relative;
   width: 95%;
-  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 2.5%;
+}
+
+.container--wide {
+  max-width: 1200px;
+}
+
+.container--mid {
+  max-width: 900px;
 }
