@@ -2,7 +2,7 @@ var theatres;
 var count;
 var num;
 var body = $("body");
-var movietickets = $(".movie-tickets");
+var movietickets = $(".movies__tickets");
 var mainHeader = $("header");
 var ctx;
 var chart;
@@ -32,30 +32,27 @@ $(document).ready(function() {
       // Loop through data and output html
       var obj = groupByYear(json);
       var resArray = createArray(obj);
-      console.log(resArray);
       $.each(json, function(i, item) {
         var date = new Date(0);
         date.setUTCSeconds(item.data_date);
         day = moment(date).format("MMMM Do YYYY");
         movietickets.append(
-          "<div class='grid ticket-row'>" +
-            "<div class='ticket-col'>" +
+          "<div class='movies__ticket__col'>" +
+            "<div class='movies__ticket__content'>" +
             "<h2>" +
             item.title +
-            "</h2><span class='theatres' data-theatre='" +
+            "</h2><span class='movies__theatres' data-theatre='" +
             item.theatre +
             "'>" +
             item.theatre +
             "</span>" +
-            "</div>" +
-            "<div class='ticket-col'>" +
-            "<h4 class='date' data-date='" +
+            "<h4 class='movies__date' data-date='" +
             item.data_date +
             "'>" +
             day +
             "</h4>" +
             "</div>" +
-            "</div>"
+          "</div>"
         );
       });
       var years = [];
@@ -64,7 +61,6 @@ $(document).ready(function() {
         years.push(obj.year);
         count.push(obj.count);
       });
-      console.log(years);
       ctx = document.getElementById("chart").getContext("2d");
       chart = new Chart(ctx, {
         type: "line",
@@ -101,27 +97,27 @@ $(document).ready(function() {
         }
       });
       // Sort movies by epoch date
-      $(".movie-tickets .ticket-row")
+      $(".movies__tickets .movies__ticket__col")
         .sort(function(a, b) {
           return (
-            new Date($(".date", b).data("date")) -
-            new Date($(".date", a).data("date"))
+            new Date($(".movies__date", b).data("date")) -
+            new Date($(".movies__date", a).data("date"))
           );
         })
-        .appendTo(".movie-tickets");
+        .appendTo(".movies__tickets");
       // Count number of movies
-      num = $(".ticket-row").length;
-      $("#numOfMovies").html(" " + num);
+      num = $(".movies__ticket__row").length;
+      $("#number-of-movies").html(" " + num);
       // Count theatres
       theatres = [];
-      $("span.theatres").each(function() {
+      $("span.movies__theatres").each(function() {
         theatres[$(this).attr("data-theatre")] = true;
       });
       count = [];
       for (var i in theatres) {
         count.push(i);
       }
-      $("#numOfTheatres").html(" " + count.length);
+      $("#number-of-theatres").html(" " + count.length);
     })
     .fail(function(jqxhr, textStatus, error) {
       var err = textStatus + ", " + error;

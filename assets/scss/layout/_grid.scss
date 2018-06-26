@@ -1,22 +1,19 @@
-@import "superior";
-
 .container {
+  @include screen-above(1280px) {
+    width: 100%;
+    padding: 0;
+  }
   position: relative;
   width: 95%;
-  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 2.5%;
 }
 
-.grid {
-  @include cols;
+.container--wide {
+  max-width: 1200px;
 }
 
-.grid-item {
-  @include make-flex(12);
-  @include screen-above(768px) {
-    @include update-flex(6);
-  }
-  position: relative;
+.container--mid {
+  max-width: 900px;
 }

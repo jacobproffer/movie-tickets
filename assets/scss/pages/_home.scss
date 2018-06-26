@@ -1,5 +1,13 @@
+@import "superior";
+
 .data {
   padding: 150px 0 100px;
+}
+
+.data__chart {
+  padding: 50px;
+  border-radius: 10px;
+  background-color: $hit;
 }
 
 .movies {
@@ -8,39 +16,24 @@
   padding: 0 0 150px;
 }
 
-.ticket-row {
-  padding: 15px 0;
-  border-top: 1px solid $border;
-
-  h2 {
-    @include screen-above(1024px) {
-      display: inline-block;
-    }
-  }
-
-  h4 {
-    @include screen-above(768px) {
-      text-align: right;
-    }
-  }
-
-  span {
-    @include screen-above(1024px) {
-      &:before {
-        content: "-";
-        color: $white;
-        left: 0;
-        padding: 5px;
-      }
-    }
-    color: $white;
-  }
+.movies__tickets {
+  @include cols;
+  align-items: stretch;
+  align-content: stretch;
 }
 
-.ticket-col {
+.movies__ticket__col {
   @include make-flex(12);
   @include screen-above(768px) {
-    @include update-flex(6);
+    @include update-flex(3);
   }
-  padding: 0;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.movies__ticket__content {
+  @include size(100%);
+  @include ratio(16, 9);
+  background-color: #232f3d;
+  padding: 25px;
 }
