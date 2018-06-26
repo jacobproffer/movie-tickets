@@ -10,7 +10,7 @@
 
 .ticket-row {
   padding: 15px 0;
-  border-top: 1px solid $gray;
+  border-top: 1px solid $border;
 
   h2 {
     @include screen-above(1024px) {

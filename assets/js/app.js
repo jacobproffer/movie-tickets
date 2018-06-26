@@ -73,9 +73,9 @@ $(document).ready(function() {
           datasets: [
             {
               data: count,
-              borderColor: "rgba(238, 238, 238, 1)",
+              borderColor: "#8475db",
               pointRadius: 4,
-              pointBackgroundColor: "rgba(239, 201, 84, 1)",
+              pointBackgroundColor: "#fff",
               pointBorderColor: "rgba(255, 255, 255, 0)"
             }
           ]

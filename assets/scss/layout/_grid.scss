@@ -14,6 +14,9 @@
 }
 
 .grid-item {
-  @include make-flex(6);
+  @include make-flex(12);
+  @include screen-above(768px) {
+    @include update-flex(6);
+  }
   position: relative;
 }
