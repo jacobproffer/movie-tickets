@@ -33,6 +33,7 @@
 
 .movies__ticket__content {
   @include size(100%);
+  @include ratio(16, 9);
   background-color: #232f3d;
   padding: 25px;
 }
