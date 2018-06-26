@@ -37,8 +37,8 @@ $(document).ready(function() {
         date.setUTCSeconds(item.data_date);
         day = moment(date).format("MMMM Do YYYY");
         movietickets.append(
-          "<div class='movies__grid movies__ticket__row'>" +
-            "<div class='movies__ticket__col'>" +
+          "<div class='movies__ticket__col'>" +
+            "<div class='movies__ticket__content'>" +
             "<h2>" +
             item.title +
             "</h2><span class='movies__theatres' data-theatre='" +
@@ -46,15 +46,13 @@ $(document).ready(function() {
             "'>" +
             item.theatre +
             "</span>" +
-            "</div>" +
-            "<div class='movies__ticket__col'>" +
             "<h4 class='movies__date' data-date='" +
             item.data_date +
             "'>" +
             day +
             "</h4>" +
             "</div>" +
-            "</div>"
+          "</div>"
         );
       });
       var years = [];
@@ -94,7 +92,7 @@ $(document).ready(function() {
         }
       });
       // Sort movies by epoch date
-      $(".movies__tickets .movies__ticket__row")
+      $(".movies__tickets .movies__ticket__col")
         .sort(function(a, b) {
           return (
             new Date($(".movies__date", b).data("date")) -

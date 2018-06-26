@@ -16,44 +16,23 @@
   padding: 0 0 150px;
 }
 
-.movies__ticket__row {
-  padding: 15px 0;
-  border-top: 1px solid $gray;
-
-  h2 {
-    @include screen-above(1024px) {
-      display: inline-block;
-    }
-  }
-
-  h4 {
-    @include screen-above(768px) {
-      text-align: right;
-    }
-  }
-
-  span {
-    @include screen-above(1024px) {
-      &:before {
-        content: "-";
-        color: $white;
-        left: 0;
-        padding: 5px;
-      }
-    }
-    color: $white;
-  }
-}
-
-.movies__grid {
+.movies__tickets {
   @include cols;
-  margin: 0;
+  align-items: stretch;
+  align-content: stretch;
 }
 
 .movies__ticket__col {
   @include make-flex(12);
   @include screen-above(768px) {
-    @include update-flex(6);
+    @include update-flex(3);
   }
-  padding: 0;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.movies__ticket__content {
+  @include size(100%);
+  background-color: #232f3d;
+  padding: 25px;
 }
