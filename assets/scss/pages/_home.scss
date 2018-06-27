@@ -5,7 +5,7 @@
 }
 
 .data {
-  background-color: $light-purple;
+  background-color: $blue;
   padding: 100px 0 100px;
 }
 
@@ -23,7 +23,6 @@
 
 .movies {
   position: relative;
-  background-color: $dark-purple;
   width: 100%;
   padding: 100px 0;
 }
@@ -35,18 +34,57 @@
 
 .movies__ticket__col {
   @include make-flex(12);
-  @include screen-above(768px) {
+  @include screen-between(475px, 768px) {
+    @include update-flex(6);
+  }
+  @include screen-between(768px, 1024px) {
+    @include update-flex(4);
+  }
+  @include screen-above(1024px) {
     @include update-flex(3);
   }
   position: relative;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.cut {
+  @include transform(translateY(-50%));
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+
+    &:not(:first-child) {
+      margin-top: 8px;
+    }
+  }
+}
+
+.left-cut {
+  @include absolute(50%, auto, auto, 3px);
+
+  li {
+    border-right: 5px solid $white;
+  }
+}
+
+.right-cut {
+  @include absolute(50%, 3px, auto, auto);
+
+  li {
+    border-left: 5px solid $white;
+  }
 }
 
 .movies__ticket__content {
   @include size(100%);
-  @include ratio(16, 9);
+  @include ratio(16, 8);
   color: $black;
   background-color: $white;
+  box-shadow: 0 2px 2px -1px #888;
   padding: 25px;
 }
 

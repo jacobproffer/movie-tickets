@@ -52,6 +52,34 @@ $(document).ready(function() {
             day +
             "</h4>" +
             "</div>" +
+            "<ul class='cut left-cut'>" +
+              "<li></li>" +
+              "<li></li>" +
+              "<li></li>" +
+              "<li></li>" +
+              "<li></li>" +
+              "<li></li>" +
+              "<li></li>" +
+              "<li></li>" +
+              "<li></li>" +
+              "<li></li>" +
+              "<li></li>" +
+              "<li></li>" +
+            "</ul>" +
+            "<ul class='cut right-cut'>" +
+              "<li></li>" +
+              "<li></li>" +
+              "<li></li>" +
+              "<li></li>" +
+              "<li></li>" +
+              "<li></li>" +
+              "<li></li>" +
+              "<li></li>" +
+              "<li></li>" +
+              "<li></li>" +
+              "<li></li>" +
+              "<li></li>" +
+            "</ul>" +
           "</div>"
         );
       });
