@@ -17,6 +17,18 @@
 	height: $height;
 }
 
+@mixin position($top: auto, $right: auto, $bottom: auto, $left: auto) {
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
+
+@mixin absolute($top: auto, $right: auto, $bottom: auto, $left: auto) {
+  @include position($top, $right, $bottom, $left);
+  position: absolute;
+}
+
 @mixin transform($args) {
 	-webkit-transform: #{$args};
 	-moz-transform: #{$args};

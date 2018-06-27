@@ -1,23 +1,34 @@
 @import "superior";
 
+.grid {
+  @include cols;
+}
+
 .data {
-  padding: 150px 0 100px;
+  background-color: $light-purple;
+  padding: 100px 0 100px;
+}
+
+.data__column__left {
+  @include make-flex(4, 10);
+}
+
+.data__column__right {
+  @include make-flex(6, 10);
 }
 
 .data__chart {
   padding: 50px;
-  border-radius: 10px;
-  background-color: $hit;
 }
 
 .movies {
   position: relative;
+  background-color: $dark-purple;
   width: 100%;
-  padding: 0 0 150px;
+  padding: 100px 0;
 }
 
 .movies__tickets {
-  @include cols;
   align-items: stretch;
   align-content: stretch;
 }
@@ -34,6 +45,11 @@
 .movies__ticket__content {
   @include size(100%);
   @include ratio(16, 9);
-  background-color: #232f3d;
+  color: $black;
+  background-color: $white;
   padding: 25px;
+}
+
+.movies__date {
+  @include absolute(25px, auto, auto, 25px);
 }
