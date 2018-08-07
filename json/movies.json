@@ -1188,5 +1188,54 @@
     "data_date": 1527307200,
     "year": 2018,
     "theatre": "Thomas Theatre Group"
+  },
+  {
+    "title": "Jurassic World: Fallen Kingdom",
+    "genre": "Fantasy",
+    "data_date": 1529726400,
+    "year": 2018,
+    "theatre": "Thomas Theatre Group"
+  },
+  {
+    "title": "Sicario: Day of the Soldado",
+    "genre": "Thriller",
+    "data_date": 1530244800,
+    "year": 2018,
+    "theatre": "Thomas Theatre Group"
+  },
+  {
+    "title": "Sicario: Day of the Soldado",
+    "genre": "Thriller",
+    "data_date": 1530417600,
+    "year": 2018,
+    "theatre": "Thomas Theatre Group"
+  },
+  {
+    "title": "Skyscraper",
+    "genre": "Crime",
+    "data_date": 1531540800,
+    "year": 2018,
+    "theatre": "Thomas Theatre Group"
+  },
+  {
+    "title": "The Equalizer 2",
+    "genre": "Action",
+    "data_date": 1532145600,
+    "year": 2018,
+    "theatre": "Thomas Theatre Group"
+  },
+  {
+    "title": "The Equalizer 2",
+    "genre": "Action",
+    "data_date": 1532836800,
+    "year": 2018,
+    "theatre": "Thomas Theatre Group"
+  },
+  {
+    "title": "Mission Impossible: Fallout",
+    "genre": "Action",
+    "data_date": 1533355200,
+    "year": 2018,
+    "theatre": "Thomas Theatre Group"
   }
 ]

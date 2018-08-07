@@ -52,34 +52,6 @@ $(document).ready(function() {
             day +
             "</h4>" +
             "</div>" +
-            "<ul class='cut left-cut'>" +
-              "<li></li>" +
-              "<li></li>" +
-              "<li></li>" +
-              "<li></li>" +
-              "<li></li>" +
-              "<li></li>" +
-              "<li></li>" +
-              "<li></li>" +
-              "<li></li>" +
-              "<li></li>" +
-              "<li></li>" +
-              "<li></li>" +
-            "</ul>" +
-            "<ul class='cut right-cut'>" +
-              "<li></li>" +
-              "<li></li>" +
-              "<li></li>" +
-              "<li></li>" +
-              "<li></li>" +
-              "<li></li>" +
-              "<li></li>" +
-              "<li></li>" +
-              "<li></li>" +
-              "<li></li>" +
-              "<li></li>" +
-              "<li></li>" +
-            "</ul>" +
           "</div>"
         );
       });
@@ -97,13 +69,14 @@ $(document).ready(function() {
           datasets: [
             {
               data: count,
-              borderColor: "#8475db",
+              borderColor: "#F44F3F",
               pointRadius: 4,
               pointBackgroundColor: "#fff",
               pointBorderColor: "rgba(255, 255, 255, 0)"
             }
           ]
         },
+        maintainAspectRatio: false,
         options: {
           scales: {
             yAxes: [
@@ -124,6 +97,7 @@ $(document).ready(function() {
           }
         }
       });
+      chart.aspectRatio = 0;
       // Sort movies by epoch date
       $(".movies__tickets .movies__ticket__col")
         .sort(function(a, b) {

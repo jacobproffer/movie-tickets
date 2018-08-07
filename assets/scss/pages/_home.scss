@@ -5,26 +5,18 @@
 }
 
 .data {
-  background-color: $blue;
-  padding: 100px 0 100px;
-}
-
-.data__column__left {
-  @include make-flex(4, 10);
-}
-
-.data__column__right {
-  @include make-flex(6, 10);
+  padding: 100px 0 50px;
 }
 
 .data__chart {
-  padding: 50px;
+  @include size(100%, 300px);
+  position: relative;
 }
 
 .movies {
   position: relative;
   width: 100%;
-  padding: 100px 0;
+  padding: 0 0 50px;
 }
 
 .movies__tickets {
@@ -47,44 +39,11 @@
   margin-bottom: 20px;
 }
 
-.cut {
-  @include transform(translateY(-50%));
-  margin: 0;
-  padding: 0;
-  list-style: none;
-
-  li {
-    border-top: 5px solid transparent;
-    border-bottom: 5px solid transparent;
-
-    &:not(:first-child) {
-      margin-top: 8px;
-    }
-  }
-}
-
-.left-cut {
-  @include absolute(50%, auto, auto, 3px);
-
-  li {
-    border-right: 5px solid $white;
-  }
-}
-
-.right-cut {
-  @include absolute(50%, 3px, auto, auto);
-
-  li {
-    border-left: 5px solid $white;
-  }
-}
-
 .movies__ticket__content {
   @include size(100%);
   @include ratio(16, 8);
-  color: $black;
-  background-color: $white;
-  box-shadow: 0 2px 2px -1px #888;
+  color: $white;
+  background-color: #1F2023;
   padding: 25px;
 }
 
