@@ -42,9 +42,9 @@
 .movies__ticket__content {
   @include size(100%);
   @include ratio(16, 8);
-  color: $white;
-  background-color: #1F2023;
+  color: $black;
   padding: 25px;
+  border-top: 1px solid $black;
 }
 
 .movies__date {
