@@ -108,8 +108,8 @@ $(document).ready(function() {
         })
         .appendTo(".movies__tickets");
       // Count number of movies
-      num = $(".movies__ticket__row").length;
-      $("#number-of-movies").html(" " + num);
+      num = $(".movies__ticket__col").length;
+      $("#number-of-movies").html(num + " movies");
       // Count theatres
       theatres = [];
       $("span.movies__theatres").each(function() {
@@ -119,7 +119,7 @@ $(document).ready(function() {
       for (var i in theatres) {
         count.push(i);
       }
-      $("#number-of-theatres").html(" " + count.length);
+      $("#number-of-theatres").html(count.length + " theaters");
     })
     .fail(function(jqxhr, textStatus, error) {
       var err = textStatus + ", " + error;
