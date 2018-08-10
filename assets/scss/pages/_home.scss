@@ -40,13 +40,14 @@
 }
 
 .movies__ticket__content {
-  @include size(100%);
-  @include ratio(16, 8);
   color: $black;
-  padding: 25px;
+  padding: 25px 0;
   border-top: 1px solid $black;
 }
 
-.movies__date {
-  @include absolute(25px, auto, auto, 25px);
+.movies__theatres {
+  margin: 0;
+  padding: 5px;
+  background-color: #ffffaa;
+  border-radius: 5px;
 }

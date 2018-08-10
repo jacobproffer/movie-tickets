@@ -41,16 +41,17 @@ $(document).ready(function() {
             "<div class='movies__ticket__content'>" +
             "<h2>" +
             item.title +
-            "</h2><span class='movies__theatres' data-theatre='" +
-            item.theatre +
-            "'>" +
-            item.theatre +
-            "</span>" +
+            "</h2>" +
             "<h4 class='movies__date' data-date='" +
             item.data_date +
             "'>" +
             day +
             "</h4>" +
+            "<span class='movies__theatres' data-theatre='" +
+            item.theatre +
+            "'>" +
+            item.theatre +
+            "</span>" +
             "</div>" +
           "</div>"
         );
@@ -69,10 +70,11 @@ $(document).ready(function() {
           datasets: [
             {
               data: count,
-              borderColor: "#F44F3F",
+              borderColor: "#ffffaa",
               pointRadius: 4,
-              pointBackgroundColor: "#fff",
-              pointBorderColor: "rgba(255, 255, 255, 0)"
+              pointBackgroundColor: "#ffffaa",
+              pointBorderColor: "rgba(255, 255, 255, 0)",
+              backgroundColor: "rgba(255, 255, 255, .0)"
             }
           ]
         },
