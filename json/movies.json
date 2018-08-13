@@ -1237,5 +1237,12 @@
     "data_date": 1533355200,
     "year": 2018,
     "theatre": "Thomas Theatre Group"
+  },
+  {
+    "title": "The Meg",
+    "genre": "Thriller",
+    "data_date": 1533960000,
+    "year": 2018,
+    "theatre": "Thomas Theatre Group"
   }
 ]

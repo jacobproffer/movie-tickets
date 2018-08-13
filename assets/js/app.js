@@ -70,11 +70,11 @@ $(document).ready(function() {
           datasets: [
             {
               data: count,
-              borderColor: "#ffffaa",
+              borderColor: "#ffd80b",
               pointRadius: 4,
-              pointBackgroundColor: "#ffffaa",
+              pointBackgroundColor: "#ff0004",
               pointBorderColor: "rgba(255, 255, 255, 0)",
-              backgroundColor: "rgba(255, 255, 255, .0)"
+              backgroundColor: "rgba(255, 255, 255, .0)",
             }
           ]
         },
