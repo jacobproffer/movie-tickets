@@ -5,14 +5,20 @@
 }
 
 .data {
-  color: $yellow;
-  background-color: $blue;
+  color: $gray;
+  background-color: $black;
   padding: 100px 0 50px;
+  overflow: hidden;
 }
 
 .data__chart {
+  @include screen-below(768px) {
+    @include size(100%, 150px);
+  }
   @include size(100%, 300px);
   position: relative;
+  margin-left: -5px;
+  margin-right: -5px;
 }
 
 .movies {
@@ -42,8 +48,10 @@
 }
 
 .movies__ticket__content {
-  border-top: 1px solid $blue;
-  padding: 25px 0;
+  @include size(auto, 100%);
+  background-color: $black;
+  border-radius: 5px;
+  padding: 25px;
 }
 
 .movies__theatres {

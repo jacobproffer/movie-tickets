@@ -63,6 +63,7 @@ $(document).ready(function() {
         count.push(obj.count);
       });
       ctx = document.getElementById("chart").getContext("2d");
+      Chart.defaults.global.defaultFontColor = "#d0d0d0";
       chart = new Chart(ctx, {
         type: "line",
         data: {
@@ -70,9 +71,9 @@ $(document).ready(function() {
           datasets: [
             {
               data: count,
-              borderColor: "#ffd80b",
+              borderColor: "#d0d0d0",
               pointRadius: 4,
-              pointBackgroundColor: "#ff0004",
+              pointBackgroundColor: "#7f7f7f",
               pointBorderColor: "rgba(255, 255, 255, 0)",
               backgroundColor: "rgba(255, 255, 255, .0)",
             }
@@ -81,8 +82,18 @@ $(document).ready(function() {
         maintainAspectRatio: false,
         options: {
           scales: {
+            xAxes: [
+              {
+                gridLines: {
+                  color: "rgba(127, 127, 127, .35)"
+                }
+              }
+            ],
             yAxes: [
               {
+                gridLines: {
+                  color: "rgba(127, 127, 127, .35)"
+                },
                 ticks: {
                   beginAtZero: true
                 }
@@ -90,11 +101,13 @@ $(document).ready(function() {
             ]
           },
           legend: {
-            display: false
+            display: false,
           },
           layout: {
             padding: {
-              top: 10
+              top: 10,
+              left: -5,
+              right: -5
             }
           }
         }
