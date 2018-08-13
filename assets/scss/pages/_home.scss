@@ -32,7 +32,7 @@
   align-content: stretch;
 }
 
-.movies__ticket__col {
+.movies__ticket {
   @include make-flex(12);
   @include screen-between(475px, 768px) {
     @include update-flex(6);
@@ -47,7 +47,7 @@
   margin-bottom: 20px;
 }
 
-.movies__ticket__content {
+.movies__ticket-content {
   @include size(auto, 100%);
   background-color: $black;
   border-radius: 5px;
