@@ -5,6 +5,9 @@
 }
 
 .data {
+  @include screen-below(768px) {
+    padding: 100px 0 25px;
+  }
   color: $gray;
   background-color: $black;
   padding: 100px 0 50px;
@@ -14,14 +17,26 @@
 .data__chart {
   @include screen-below(768px) {
     @include size(100%, 150px);
+    margin-bottom: 25px;
   }
   @include size(100%, 300px);
   position: relative;
   margin-left: -5px;
   margin-right: -5px;
+  margin-bottom: 50px;
+}
+
+.data__grid-item {
+  @include make-flex(6);
+  @include screen-above(768px) {
+    @include update-flex(4);
+  }
 }
 
 .movies {
+  @include screen-below(768px) {
+    padding: 25px 0;
+  }
   position: relative;
   width: 100%;
   padding: 50px 0;

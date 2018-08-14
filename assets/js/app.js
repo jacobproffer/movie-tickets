@@ -6,6 +6,9 @@ var movietickets = $(".movies__tickets");
 var mainHeader = $("header");
 var ctx;
 var chart;
+var startYear = 2007;
+var currentYear = moment().format("YYYY");
+var numberOfYears = currentYear - startYear;
 
 $(document).ready(function() {
   function groupByYear(arr) {
@@ -39,9 +42,9 @@ $(document).ready(function() {
         movietickets.append(
           "<div class='movies__ticket'>" +
             "<div class='movies__ticket-content'>" +
-            "<h2>" +
+            "<h3>" +
             item.title +
-            "</h2>" +
+            "</h3>" +
             "<h4 class='movies__date' data-date='" +
             item.data_date +
             "'>" +
@@ -124,7 +127,7 @@ $(document).ready(function() {
         .appendTo(".movies__tickets");
       // Count number of movies
       num = $(".movies__ticket").length;
-      $("#number-of-movies").html(num + " movies");
+      $("#number-of-movies").html(num);
       // Count theatres
       theatres = [];
       $("span.movies__theatres").each(function() {
@@ -134,12 +137,14 @@ $(document).ready(function() {
       for (var i in theatres) {
         count.push(i);
       }
-      $("#number-of-theatres").html(count.length + " theaters");
+      $("#number-of-theatres").html(count.length);
     })
     .fail(function(jqxhr, textStatus, error) {
       var err = textStatus + ", " + error;
       console.log("Request Failed: " + err);
     });
+
+  $("#number-of-years").html(numberOfYears);
 
   mainHeader.headroom({
     offset: 0,

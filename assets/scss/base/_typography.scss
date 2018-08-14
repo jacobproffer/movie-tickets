@@ -22,6 +22,7 @@ h3 {
 
 h3,
 h4,
-p {
+p,
+small {
   @include font-size($site-font-size);
 }

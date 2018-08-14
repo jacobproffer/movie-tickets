@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Moviesss</title>
+    <title>Movies Per Year</title>
     <meta name="description" content="This site serves as an archive of the movies Jacob Proffer has seen in theatres, powered by JSON and JavaScript." />
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
@@ -35,7 +35,7 @@
     <!-- Header -->
     <header class="header">
       <div class="container">
-        <h1 class="header__heading"><a href="#">Moviesss</a></h1>
+        <h1 class="header__heading"><a href="#">Movies Per Year</a></h1>
       </div>
     </header>
     <!-- The Data -->
@@ -44,8 +44,20 @@
         <div class="data__chart">
           <canvas id="chart" style="position: relative;"></canvas>
         </div>
-        <p id="number-of-movies"></p>
-        <span id="number-of-theatres"></span>
+        <div class="grid data__grid">
+          <div class="data__grid-item">
+            <h2 id="number-of-movies"></h2>
+            <small>Movies</small>
+          </div>
+          <div class="data__grid-item">
+            <h2 id="number-of-theatres"></h2>
+            <small>Theaters</small>
+          </div>
+          <div class="data__grid-item">
+            <h2 id="number-of-years"></h2>
+            <small>Years</small>
+          </div>
+        </div>
       </div>
     </section>
     <!-- The Movies -->
