@@ -31,6 +31,13 @@
 }
 
 .data__grid-item {
+  @include screen-below(768px) {
+    @include update-flex(6);
+
+    &:nth-of-type(-n+2) {
+      margin-bottom: 10px;
+    }
+  }
   @include make-flex(3);
 }
 
