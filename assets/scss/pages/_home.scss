@@ -10,7 +10,7 @@
 
 .data {
   @include screen-below(768px) {
-    padding: 100px 0 25px;
+    padding: 75px 0 25px;
   }
   color: $gray;
   background-color: $black;
