@@ -7,14 +7,24 @@
           box-sizing: $box-model;
 }
 
-
-
 /* CSS3 Manipulation
   ========================================================================== */
 
 @mixin size($width, $height: $width) {
 	width: $width;
 	height: $height;
+}
+
+@mixin position($top: auto, $right: auto, $bottom: auto, $left: auto) {
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
+
+@mixin absolute($top: auto, $right: auto, $bottom: auto, $left: auto) {
+  @include position($top, $right, $bottom, $left);
+  position: absolute;
 }
 
 @mixin transform($args) {
@@ -30,9 +40,27 @@
   -ms-transition: #{$args};
   -o-transition: #{$args};
   transition: #{$args};
- }
+}
 
+@mixin ratio($width: 1, $height: 1) {
+  position: relative;
 
+  &::before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: ($height / $width) * 100%;
+  }
+
+  > .content,
+  > .inside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
 
 /* Grid
   ========================================================================== */
@@ -44,8 +72,6 @@
 		clear: both;
 	}
 }
-
-
 
 /* Breakpoints
   ========================================================================== */
@@ -67,8 +93,6 @@
     @content;
   }
 }
-
-
 
 /* Typography
   ========================================================================== */

@@ -2,56 +2,77 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Movies</title>
-    <meta name="keywords" content="movie, tickets, movie tickets, archive" />
+    <title>Movies Per Year</title>
     <meta name="description" content="This site serves as an archive of the movies Jacob Proffer has seen in theatres, powered by JSON and JavaScript." />
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1"/>
-    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
-    <link rel="manifest" href="favicons/manifest.json">
-    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#000000">
-    <link rel="shortcut icon" href="favicons/favicon.ico">
-    <meta name="msapplication-config" content="favicons/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/project-main.min.css">
   </head>
   <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-100014360-1', 'auto');
-    ga('send', 'pageview');
+  (function(i, s, o, g, r, a, m) {
+  i["GoogleAnalyticsObject"] = r;
+  (i[r] =
+    i[r] ||
+    function() {
+      (i[r].q = i[r].q || []).push(arguments);
+    }),
+    (i[r].l = 1 * new Date());
+  (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+  a.async = 1;
+  a.src = g;
+  m.parentNode.insertBefore(a, m);
+  })(
+  window,
+  document,
+  "script",
+  "https://www.google-analytics.com/analytics.js",
+  "ga"
+  );
+  ga("create", "UA-100014360-1", "auto");
+  ga("send", "pageview");
   </script>
   <body>
-    <div class="info-modal close-info-modal">
-      <div class="info-modal-container">
-        <p>This site serves as an archive of the movies I've seen in theatres, powered by JSON and JavaScript. I've currently seen <span id="numOfMovies"></span> movies in <span id="numOfTheatres"></span> movie theatres since 2007. All data collected from an enormous amount of movie tickets.</p>
-      </div>
-      <div class="info-modal-footer">
-        <span class="info-modal-close">Close</span>
-      </div>
-    </div>
-    <header>
+    <!-- Header -->
+    <header class="header">
       <div class="container">
-        <h1>Movies</h1>
+        <h1 class="header__heading"><a href="#">Movies Per Year</a></h1>
       </div>
     </header>
-    <section class="movies">
+    <!-- The Data -->
+    <section class="data">
       <div class="container">
-        <div class="movie-tickets">
-          <!-- Date is outputed here -->
+        <div class="data__chart">
+          <canvas id="chart" style="position: relative;"></canvas>
+        </div>
+        <div class="grid data__grid">
+          <div class="data__grid-item">
+            <h2 id="number-of-movies"></h2>
+            <small class="highlight">Movies</small>
+          </div>
+          <div class="data__grid-item">
+            <h2 id="number-of-theatres"></h2>
+            <small class="highlight">Theaters</small>
+          </div>
+          <div class="data__grid-item">
+            <h2 id="number-of-years"></h2>
+            <small class="highlight">Years</small>
+          </div>
+          <div class="data__grid-item">
+            <h2>3</h2>
+            <small class="highlight">Countries</small>
+          </div>
         </div>
       </div>
     </section>
-    <footer>
+    <!-- The Movies -->
+    <section class="movies">
       <div class="container">
-        <span class="open-info-modal">Info</span>
+        <div class="grid movies__tickets">
+        </div>
       </div>
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="dist/js/app.min.js" charset="utf-8"></script>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+    <script src="dist/js/app.min.js"></script>
   </body>
 </html>

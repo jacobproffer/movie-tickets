@@ -1,25 +1,28 @@
-h3,
-h4,
-p {
-  @include font-size($site-font-size);
-}
-
 h1 {
-  font-weight: 500;
-  margin: 0;
   @include font-size($h1-font-sizes);
+  margin: 0;
 }
 
 h2 {
-  font-weight: 500;
+  @include font-size($h2-font-sizes);
   letter-spacing: 0.05em;
   margin: 0.05em -1.2em 0.05em 0;
-  @include font-size($h2-font-sizes);
+}
+
+h4 {
+  margin-top: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
 }
 
 h3,
 h4,
-h5,
-p {
-  font-weight: 400;
+p,
+small {
+  @include font-size($site-font-size);
 }
