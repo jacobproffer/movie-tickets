@@ -4,6 +4,10 @@
   @include cols;
 }
 
+.highlight {
+  color: $hit;
+}
+
 .data {
   @include screen-below(768px) {
     padding: 100px 0 25px;
@@ -27,10 +31,7 @@
 }
 
 .data__grid-item {
-  @include make-flex(6);
-  @include screen-above(768px) {
-    @include update-flex(4);
-  }
+  @include make-flex(3);
 }
 
 .movies {

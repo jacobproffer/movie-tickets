@@ -45,7 +45,7 @@ $(document).ready(function() {
             "<h3>" +
             item.title +
             "</h3>" +
-            "<h4 class='movies__date' data-date='" +
+            "<h4 class='movies__date highlight' data-date='" +
             item.data_date +
             "'>" +
             day +
@@ -76,7 +76,7 @@ $(document).ready(function() {
               data: count,
               borderColor: "#d0d0d0",
               pointRadius: 4,
-              pointBackgroundColor: "#7f7f7f",
+              pointBackgroundColor: "#9689ee",
               pointBorderColor: "rgba(255, 255, 255, 0)",
               backgroundColor: "rgba(255, 255, 255, .0)",
             }
