@@ -8,9 +8,14 @@
   color: $black;
   background: $selection;
 }
+
 ::selection {
   color: $black;
   background: $selection;
+}
+
+:focus {
+  outline: none;
 }
 
 img {
