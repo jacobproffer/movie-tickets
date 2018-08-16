@@ -1,0 +1,18 @@
+.footer {
+  @include clearfix;
+  @include screen-below(768px) {
+    padding: 15px 0;
+  }
+  padding: 30px 0;
+  background-color: $black;
+}
+
+.footer__credit {
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__link {
+  float: right;
+}

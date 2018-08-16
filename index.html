@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Movies Per Year</title>
-    <meta name="description" content="This site serves as an archive of the movies Jacob Proffer has seen in theatres, powered by JSON and JavaScript." />
+    <meta name="description" content="This site serves as an archive of the movies Jacob Proffer has seen in theatres since 2007." />
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/project-main.min.css">
@@ -31,11 +31,12 @@
   ga("create", "UA-100014360-1", "auto");
   ga("send", "pageview");
   </script>
-  <body>
+  <body id="top">
     <!-- Header -->
     <header class="header">
       <div class="container">
-        <h1 class="header__heading"><a href="#">Movies Per Year</a></h1>
+        <h1 class="header__heading"><a href="#top">Movies Per Year</a></h1>
+        <a class="header__link" href="#info">Info</a>
       </div>
     </header>
     <!-- The Data -->
@@ -71,6 +72,29 @@
         </div>
       </div>
     </section>
+    <!-- Info -->
+    <section class="info" id="info">
+      <div class="container">
+        <div class="grid">
+          <div class="info__item">
+            <div class="info__blurb">
+              <p>This site serves two purposes. First and foremost as an archive of the movies I've seen in theaters since 2007. Secondly, as a data visualization of movies I see per year.</p>
+              <p>I started this collection of movie tickets in 2007. At the time, the tickets were keepsakes for a relationship that I was in. As the years past, I just kept putting the tickets in a black cup with the words, "Dead Man's Brew," printed on the side. Today, the cup is packed with tickets of all shapes, sizes and textures.</p>
+              <p>My current favorite ticket is from 2010 when I watched The Town in the now closed Delft theater in Marquette, MI.</p>
+            </div>
+          </div>
+          <div class="info__item">
+            <img src="#" alt="Image of movie tickets">
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <p class="footer__credit">Made with <span class="highlight">♥</span> by <a href="http://www.jacobproffer.com" target="_blank">Jacob Proffer</a></p>
+        <a class="footer__link" href="https://github.com/jacobproffer/movies" target="_blank">GitHub</a>
+      </div>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
     <script src="dist/js/app.min.js"></script>
