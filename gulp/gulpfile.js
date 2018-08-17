@@ -25,7 +25,7 @@ gulp.task('html', function() {
 // Static Server + watching scss/html files
 gulp.task("serve", ["sass", "js"], function() {
   browserSync.init({
-    server: "../",
+    server: "../docs",
     browser: "google chrome"
   });
   gulp.watch("../assets/scss/**/*.scss", ["sass"]);
