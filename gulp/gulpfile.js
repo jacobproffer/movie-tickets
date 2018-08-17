@@ -28,6 +28,7 @@ gulp.task("serve", ["sass", "js"], function() {
     server: "../docs",
     browser: "google chrome"
   });
+  gulp.watch("../*.html", ["html"]);
   gulp.watch("../assets/scss/**/*.scss", ["sass"]);
   gulp.watch("../assets/js/**/*.js", ["js"]);
   gulp.watch("../*.html").on("change", browserSync.reload);
@@ -60,11 +61,11 @@ gulp.task("js", function() {
     .pipe(browserSync.stream());
 });
 
-gulp.task("watch", function() {
-  gulp.watch("../*.html", ["html"]);
-  gulp.watch("../dist/scss/**/*.scss", ["sass"]);
-  gulp.watch("../dist/js/**/*.js", ["js"]);
-  gulp.watch("../*.html").on("change", browserSync.reload);
-});
+// gulp.task("watch", function() {
+//   gulp.watch("../*.html", ["html"]);
+//   gulp.watch("../dist/scss/**/*.scss", ["sass"]);
+//   gulp.watch("../dist/js/**/*.js", ["js"]);
+//   gulp.watch("../*.html").on("change", browserSync.reload);
+// });
 
 gulp.task("default", ["sass", "js", "html", "serve"]);
