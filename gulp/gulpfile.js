@@ -1,12 +1,13 @@
 "use strict";
 
-var gulp = require("gulp"),
-  sass = require("gulp-sass"),
-  rename = require("gulp-rename"),
-  prefix = require("gulp-autoprefixer"),
-  uglify = require("gulp-uglify"),
-  concat = require("gulp-concat"),
-  browserSync = require("browser-sync").create();
+var gulp = require("gulp");
+var sass = require("gulp-sass");
+var rename = require("gulp-rename");
+var prefix = require("gulp-autoprefixer");
+var uglify = require("gulp-uglify");
+var concat = require("gulp-concat");
+var htmlmin = require('gulp-htmlmin');
+var browserSync = require("browser-sync").create();
 
 var scripts = [
   "../assets/js/lib/headroom/headroom.min.js",
@@ -14,6 +15,12 @@ var scripts = [
   "../assets/js/lib/moments/moments.js",
   "../assets/js/app.js"
 ];
+
+gulp.task('html', function() {
+  return gulp.src('../*html')
+  .pipe(htmlmin({collapseWhitespace: true}))
+  .pipe(gulp.dest('../docs'));
+});
 
 // Static Server + watching scss/html files
 gulp.task("serve", ["sass", "js"], function() {
@@ -54,9 +61,10 @@ gulp.task("js", function() {
 });
 
 gulp.task("watch", function() {
+  gulp.watch("../*.html", ["html"]);
   gulp.watch("../dist/scss/**/*.scss", ["sass"]);
   gulp.watch("../dist/js/**/*.js", ["js"]);
   gulp.watch("../*.html").on("change", browserSync.reload);
 });
 
-gulp.task("default", ["sass", "js", "serve"]);
+gulp.task("default", ["sass", "js", "html", "serve"]);
