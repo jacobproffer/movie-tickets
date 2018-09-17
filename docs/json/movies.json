@@ -1251,5 +1251,12 @@
     "data_date": 1534564800,
     "year": 2018,
     "theatre": "Thomas Theatre Group"
+  },
+  {
+    "title": "The Predator",
+    "genre": "Thriller",
+    "data_date": 1536984000,
+    "year": 2018,
+    "theatre": "Thomas Theatre Group"
   }
 ]
