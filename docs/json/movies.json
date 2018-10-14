@@ -1258,5 +1258,12 @@
     "data_date": 1536984000,
     "year": 2018,
     "theatre": "Thomas Theatre Group"
+  },
+  {
+    "title": "First Man",
+    "genre": "Drama",
+    "data_date": 1539316800,
+    "year": 2018,
+    "theatre": "Thomas Theatre Group"
   }
 ]
