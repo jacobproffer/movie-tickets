@@ -1265,5 +1265,12 @@
     "data_date": 1539316800,
     "year": 2018,
     "theatre": "Thomas Theatre Group"
+  },
+  {
+    "title": "Halloween",
+    "genre": "Horror",
+    "data_date": 1540008000,
+    "year": 2018,
+    "theatre": "Thomas Theatre Group"
   }
 ]
