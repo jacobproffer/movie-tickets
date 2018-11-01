@@ -1279,5 +1279,12 @@
     "data_date": 1540094400,
     "year": 2018,
     "theatre": "Thomas Theatre Group"
+  },
+  {
+    "title": "Hell Fest",
+    "genre": "Horror",
+    "data_date": 1540872000,
+    "year": 2018,
+    "theatre": "Konsertpaleet"
   }
 ]
