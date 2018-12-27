@@ -1293,5 +1293,12 @@
     "data_date": 1541912400,
     "year": 2018,
     "theatre": "Thomas Theatre Group"
+  },
+  {
+    "title": "The Mule",
+    "genre": "Drama",
+    "data_date": 1545541200,
+    "year": 2018,
+    "theatre": "Thomas Theatre Group"
   }
 ]
