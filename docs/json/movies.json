@@ -1300,5 +1300,26 @@
     "data_date": 1545541200,
     "year": 2018,
     "theatre": "Thomas Theatre Group"
+  },
+  {
+    "title": "Avengers: Endgame",
+    "genre": "Fantasy",
+    "data_date": 1557093647,
+    "year": 2019,
+    "theatre": "Thomas Theatre Group"
+  },
+  {
+    "title": "Pokemon: Detective Pikachu",
+    "genre": "Fantasy",
+    "data_date": 1557525647,
+    "year": 2019,
+    "theatre": "Thomas Theatre Group"
+  },
+  {
+    "title": "John Wick: Chapter 3",
+    "genre": "Action",
+    "data_date": 1558218947,
+    "year": 2019,
+    "theatre": "Thomas Theatre Group"
   }
 ]
