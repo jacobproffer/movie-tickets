@@ -1321,40 +1321,5 @@
     "data_date": 1558218947,
     "year": 2019,
     "theatre": "Thomas Theatre Group"
-  },
-  {
-    "title": "Godzilla: King of the Monsters",
-    "genre": "Fantasy",
-    "data_date": 1559430618,
-    "year": 2019,
-    "theatre": "Thomas Theatre Group"
-  },
-  {
-    "title": "Brightburn",
-    "genre": "Sci-Fi",
-    "data_date": 1558998618,
-    "year": 2019,
-    "theatre": "Thomas Theatre Group"
-  },
-  {
-    "title": "Child's Play",
-    "genre": "Thriller",
-    "data_date": 1561158618,
-    "year": 2019,
-    "theatre": "Thomas Theatre Group"
-  },
-  {
-    "title": "The Dead Don't Die",
-    "genre": "Fantasy",
-    "data_date": 1561849818,
-    "year": 2019,
-    "theatre": "Thomas Theatre Group"
-  },
-  {
-    "title": "John Wick: Chapter 3",
-    "genre": "Action",
-    "data_date": 1558393818,
-    "year": 2019,
-    "theatre": "Thomas Theatre Group"
   }
 ]
